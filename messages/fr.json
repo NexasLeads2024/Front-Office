@@ -1,0 +1,311 @@
+{
+  "servises": {
+    "1": {
+    "name": "Formations et Certifications",
+    "slug": "Training-And-Certifications",
+    "description": "Boostez les compétences de votre équipe avec nos formations et certifications expertes en développement commercial et en vente Digital. Conçues pour les PME B2B, nous fournissons les outils et les connaissances nécessaires pour trouver, contacter et conclure de nouvelles affaires de manière prévisible efficacement.",
+    "image": "/Training-and-Certifications.png",
+    "link": "/Training-And-Certifications"
+  },
+  "2": {
+    "name": "Intégrations CRM",
+    "slug": "CRM-Integrations",
+    "description": "Centraliser les interactions avec vos clients, boostez la productivité de votre équipe et préparez-vous à la croissance future avec le CRM intelligent de HubSpot. Découvrez une intégration transparente et des fonctionnalités avancées adaptées à votre succès. Alimentez les ventes, le support et le marketing de vos clients avec HubSpot CRM.",
+    "image": "/CRM-Integrations.png",
+    "link": "/CRM-Integrations"
+  },
+  "3": {
+    "name": "Développement Commercial",
+    "slug": "Business-Development",
+    "description": "Trouvez, atteignez et concluez vos clients idéaux en utilisant des méthodes de prospection éprouvées et des stratégies de marketing direct via Email, LinkedIn, WhatsApp et SMS. Nos solutions sur mesure incluant des études de marché, la création de funnels de vente pour la tech, et l'accès à des experts en développement commercial. Assurez une domination claire du marché et une croissance soutenue avec nos services complets de Go-To-Market.",
+    "image": "/Business-Developmen.png",
+    "link": "/Business-Development"
+  }},
+  
+  "OurServicesPage": {
+    "title": "Nos Services",
+    "button": "En Savoir Plus"
+  },
+  "WhyUs": {
+    "1": {
+      "name": "Expansion Globale au moindre Coût",
+      "position": "Imaginez-vous vous développer sur les marchés mondiaux sans les frais d'ouverture de nouvelles succursales ou d'embauche de développeurs commerciaux à temps plein. En vous associant à notre équipe d'experts en développement commercial, vous avez accès à une large gamme de services professionnels. Nous vous aidons à commercialiser vos produits/services, à atteindre plus de clients et à conclure plus de contrats, augmentant ainsi considérablement vos revenus."
+    },
+    "2": {
+      "name": " Expérience étendue",
+      "position": "Notre équipe a passé plus de 10 ans dans le secteur du développement commercial B2B technologique. Nous avons travaillé avec des entreprises d'IA de pointe, des insurtechs, des entreprises de mobilité électrique, des consultants IT de premier plan et des fournisseurs internationaux d'ERP. Nous vous aidons à pénétrer de nouveaux marchés et à naviguer dans une concurrence féroce. En utilisant nos compétences et notre expérience, ainsi que des informations basées sur les données, nous créons des entonnoirs de vente pertinents qui propulsent votre succès."
+    },
+    "3": {
+      "name": "Stratégies Personnalisées",
+      "position": "Quand nous parlons de partenariat, nous le pensons vraiment. Nous prenons le temps de vous comprendre, vos services, vos clients et votre marché. Notre approche n'est jamais la même pour deux clients. Nous élaborons une stratégie unique et efficace pour atteindre votre public cible et générer de la demande pour votre marque. Nous nous assurons que votre entreprise se distingue et atteint ses objectifs."
+    }
+  },
+
+  "WhyUsHeading": {
+    "heading": "Pourquoi Nous Choisir"
+  },
+  
+  "StatsCards": {
+      "DealOpportunityGenerated": "En Opportunités D'affaires Générées Pour Nos Clients",
+      "Countries":"Pays",
+      "CampaignsLaunched":"Campagnes Lancées",
+      "ReplyRate":"Taux de Réponse",
+      "heading":"Nos Statistiques",
+      "description":"Nous vous aidons à libérer la puissance de votre entreprise"
+  },
+
+  "Hero": {
+    "button": "Consultation Gratuite",
+    "heading": "Agence De Développement",
+    "heading1": "Des Affaires",
+    "heading2": "Tirer parti de l'IA et de l'automatisation marketing pour trouver,",
+    "heading3": "atteindre et conclure facilement de nouveaux contrats"
+  },
+
+  "AboutUs": {
+    "heading": "Qui sommes -",
+    "heading1": "nous ?",
+    "button": "Lire Plus",
+    "description": "NexasLeads est une agence mondiale de développement commercial B2B, spécialisée dans les stratégies de mise sur le marché, l'expansion commerciale et la croissance du chiffre d'affaires B2B. Nos solutions aident les petites et moyennes entreprises à générer et à qualifier des prospects afin qu'elles puissent générer plus de demande et conclure plus de contrats."
+  },
+
+  "ProspectCalculator": {
+    "heading": "Calculateur de nombre de prospects selon nombre de SMS envoyé",
+    "email": "Nombre de SMS envoyés par e-mail :",
+    "linkedin": "Nombre de SMS envoyés sur Linkedin :",
+    "whatsapp": "Nombre de SMS envoyés sur WhatsApp :",
+    "phone": "Nombre de SMS envoyés sur téléphone :",
+    "heading1": "Nombre de prospects obtenus"
+  },
+  
+  "AboutUsPage": {
+    "heading": "À propos de nous",
+    "heading1": "C'est notre métier.",
+    "description": "Chez NexasLeads, notre équipe de développeurs commerciaux dédiés, d'experts en vente, de générateurs de leads et de rédacteurs se réunit pour stimuler la croissance de votre entreprise B2B.",
+    "description1": "Nous sommes spécialisés dans la génération de leads innovante, les solutions de vente stratégiques et la rédaction persuasive pour vous aider à identifier, atteindre et convertir des clients à fort potentiel.",
+    "description2": "Notre approche globale combine une technologie de pointe avec des stratégies basées sur les données, garantissant des opérations optimisées et une croissance significative des revenus. Partenaire avec NexasLeads pour libérer tout le potentiel de votre entreprise et atteindre un succès sans précédent.",
+    "button": "En savoir plus",
+    "DealOpportunityGenerated": "En Opportunités D'affaires Générées Pour Nos Clients",
+    "Countries":"Pays",
+    "CampaignsLaunched":"Campagnes Lancées",
+    "ReplyRate":"Taux de Réponse",
+    "heading3": "Axé sur les données",
+    "description3": "Nous basons nos décisions et nos optimisations sur les données que nous avons acquises ou déjà en notre possession. Nous capitalisons sur les succès existants et les utilisons pour développer vos résultats.",
+    "button3": "Prêt à développer votre entreprise ?",
+    "heading4": "Centricité client",
+    "description4": "C'est votre entreprise, et nous sommes ici pour la faire croître. Votre avis n'est pas seulement important, il est indispensable pour garantir des résultats optimaux.",
+    "button4": "Prêt à développer votre entreprise ?",
+    "heading5": "Communication avant tout",
+    "description5": "Vous avez une idée, parlons-en. Quelque chose vous pose problème, discutons des solutions. En tant qu'équipe, nous privilégions une communication honnête et transparente pour favoriser la santé organisationnelle. Ce sont nos valeurs.",
+    "button5": "Prêt à développer votre entreprise ?"
+  },
+
+
+  "TrainingAndCertifications": {
+    "heading": "Boostez vos Ventes avec une Formation Professionnelle en Développement Commercial",
+    "description": "Bénéficiez d'une formation professionnelle pour vos équipes internes de vente et de développement commercial, ou même pour vos employés réguliers, afin de commencer à générer et conclure des affaires dès que possible. Notre méthode éprouvée pour trouver des prospects, les atteindre, générer des réunions et des démonstrations, créer des propositions convaincantes et, finalement, conclure de nouveaux clients garantit que vous ne devrez jamais compter sur des sources externes de prospects—sauf nous, bien sûr.",
+    
+    
+    "heading1": "Notre Méthode Éprouvée",
+    "description1": "Après des années dans l'industrie B2B tech, nous avons réalisé que chaque entonnoir de vente suit des étapes similaires pour conclure une affaire. Nous avons minutieusement reproduit et perfectionné ces étapes pour convenir à toute entreprise B2B. Bien que des ajustements soient toujours nécessaires, le processus reste constant.",
+
+
+    "heading2": "Curriculum",
+
+    "card1": "ICP",
+    "card1Description1": "Apprenez à identifier les composants clés de votre ICP pour les trouver en ligne.",
+    "card1Description2": "Comprenez leurs intérêts et comment obtenir une réponse malgré les centaines de messages qu'ils reçoivent chaque jour.",
+    
+    "card2": "CopyWriting",
+    "card2Description1": "Créez des messages qui répondent aux points douloureux de vos prospects.",
+    "card2Description2": "Positionnez votre produit ou service comme la solution idéale.",
+    
+    "card3": "Canaux",
+    "card3Description1": "Identify the channels where your ICP is most active.",
+    "card3Description2": "Master message creation for each channel to grow your open and reply rates.",
+    
+    "card4": "Ventes",
+    "card4Description1": "Comprenez les étapes clés après qu'un prospect accepte de vous rencontrer.",
+    "card4Description2": "Apprenez l'art de créer une relation et d'engager des prospects sans présenter immédiatement votre produit.",
+    
+    "card5": "Deals",
+    "card5Description1": "Développez des stratégies pour conclure des affaires et transformer des prospects en clients à long terme.",
+    "card5Description2": "Pratiquez la création de propositions convaincantes et la gestion des objections de manière efficace.",
+    
+
+    "description2": "Bien que le processus puisse sembler simple, le diable est dans les détails. En participant à nos sessions, vous maîtriserez les éléments essentiels pour identifier et atteindre votre ICP, créer des messages qui se démarquent et convertir des prospects en clients.",
+
+
+    "heading3": "Pourquoi choisir notre Formation ?",
+
+    "card6": "Expertise",
+    "card6Description1": "Avec des années d'expérience dans l'industrie B2B tech, nous avons perfectionné un processus qui fonctionne dans différents secteurs.",
+
+    "card7": "Succès Éprouvé",
+    "card7Description1": "Notre méthode a aidé de nombreuses entreprises à affiner leurs compétences en vente et acquisition de clients, augmentant ainsi leurs revenus et leur croissance.",
+
+    "card8": "Approche Personnalisée",
+    "card8Description1": "Bien que nous fournissons un cadre structuré, nous adaptons également notre formation aux besoins spécifiques de votre entreprise et de votre secteur.",
+
+    "card9": "Formation Pratique",
+    "card9Description1": "Nos sessions sont interactives et pratiques, garantissant que vous pouvez appliquer immédiatement ce que vous apprenez pour commencer à voir des résultats.",
+
+
+    "description3": "Rejoignez-nous et acquérez les compétences nécessaires pour prendre le contrôle de votre pipeline de ventes, améliorer votre prospection et conclure plus d'affaires. Nos sessions de formation vous équiperont des connaissances et des outils nécessaires pour devenir autonome en génération de prospects et développement commercial, assurant une croissance et un succès durables pour votre entreprise."
+
+  },
+
+  "BusinessDevelopment": {
+    "heading": "Nous vous connectons avec vos clients idéaux",
+    "heading1": "Notre Processus Éprouvé pour le Développement Commercial",
+    "description": "Trouvez, atteignez et concluez vos clients idéaux en utilisant des méthodes éprouvées et des stratégies de marketing direct par Email, LinkedIn, WhatsApp et SMS. Nos solutions sur mesure incluent des études de marché, la création de funnels de vente technologiques et l'accès à des développeurs commerciaux experts.",
+    "description1": "Assurez une domination claire du marché et une croissance soutenue avec nos services complets de Go-To-Market. En suivant ces étapes, nous fournissons un flux constant de prospects de haute qualité et une solution de développement commercial adaptée à vos besoins uniques.",
+    
+    "headingCard1": "Définir votre profil de client idéal (ICP) et stratégie",
+    "descriptionCard1": "Nous analysons les spécificités de votre marque, votre proposition de valeur, votre audience et votre marché total adressable (TAM) pour définir votre profil de client idéal (ICP) et élaborer une stratégie de développement commercial sur mesure.",
+
+    "headingCard2": "Générer une liste de prospects ciblés",
+    "descriptionCard2": "Notre équipe compile une liste d'entreprises correspondant à votre ICP, ajoutant des décideurs qualifiés à votre pipeline. Cette liste personnalisée garantit une prospection et un engagement efficaces.",
+
+    "headingCard3": "Marketing sortant et initiation des contacts via l'IA",
+    "descriptionCard3": "Nous intégrons votre liste de prospects dans nos outils d'automatisation marketing et d'IA pour effectuer une prospection à grande échelle avec une approche personnalisée.",
+    "description1Card3": "Nous configurons et préparons les boîtes mail et les séquences d'emails personnalisés pour maximiser les taux de conversion.",
+
+    "headingCard4": "Stratégies de prospection et engagement client",
+    "descriptionCard4": "Nos experts BD’s contactent les prospects, effectuent des suivis et organisent des réunions avec ceux qui montrent de l'intérêt pour vos produits ou services.",
+    "description1Card4": "Nous utilisons les canaux de marketing direct B2B les plus efficaces, tels que l'email, LinkedIn, WhatsApp et SMS, pour atteindre des profils extrêmement spécifiques.",
+
+    "headingCard5": "Recherche de marché et analyse d'opportunités",
+    "descriptionCard5": "Nous menons des recherches de marché approfondies et identifions de nouvelles opportunités pour assurer que votre entreprise reste compétitive. Cela permet de peaufiner votre approche et de cibler les bons segments de marché.",
+
+    "headingCard6": "Développement commercial et conversion",
+    "descriptionCard6": "Notre équipe spécialisée cultive ces relations, utilisant notre expertise en développement commercial pour convertir les prospects en clients à long terme. Nous nous concentrons sur la construction de la confiance et la livraison de valeur pour stimuler la croissance de votre entreprise."
+
+
+  },
+
+
+  "Section": {
+      "heading": "Passer Votre Entreprise au",
+      "heading1":"Niveau Supérieur",
+      "description":"Profitez d'un appel rapide pour conclure plus d'affaires",
+      "button":"Consultation gratuite",
+      "button1":"Savoir plus"
+  },
+
+  "CRMIntegrations": {
+      "heading": "Transformez les Relations Clients avec l'Intégration CRM de HubSpot",
+      "card1":"HubSpot CRM",
+      "description1":"Gérer les relations clients est essentiel pour la croissance. En tant que partenaires HubSpot, nous offrons une intégration transparente pour organiser, suivre et cultiver les interactions clients. HubSpot CRM centralise les informations clients, les rendant accessibles à votre équipe pour une expérience optimale.",
+      "card2":"Votre Entreprise A Besoin d'un CRM",
+      "description2":"Un CRM centralise toutes les informations sur les prospects et clients, offrant une meilleure visibilité sur la productivité des ventes. Plus de données éparpillées : un CRM améliore l'efficacité et rationalise les flux de travail.",
+      "card3":"Collaboration et Productivité",
+      "description3":"Un CRM capture toutes les interactions clients en un seul endroit, assurant que votre équipe ait le contexte nécessaire pour poursuivre les conversations. Cela favorise une meilleure collaboration et améliore la productivité.",
+      "card4":"Croissance Future",
+      "description4":"Le Smart CRM de HubSpot offre des outils d'IA intuitifs qui évoluent avec vos besoins, offrant des fonctionnalités avancées comme le chat en direct et la planification de réunions.",
+      "description5":"Adoptez un CRM dès maintenant pour gérer l'augmentation des interactions clients, améliorer l'efficacité et offrir une expérience client cohérente et de haute qualité."
+  },
+  
+  "Reviews": {
+      "heading":"Avis de Nos Clients",
+      "heading1": "Abu Agency",
+      "heading2":"Services logiciels et informatiques",
+      "description":"NexasLeads nous a aidés à mettre en place un entonnoir de vente et de marketing avec une approche efficace et même un CRM avec HubSpot pour suivre nos leads et assurer leur suivi. Honnêtement, ils ont dépassé nos attentes et ajouté plusieurs bonus, car nous ne connaissions pas beaucoup les canaux de vente.",
+      
+      
+      "heading3":"Mehdi Abou",
+      "heading4":"Responsable des ventes, Entreprise de matériel informatique",
+      "description1":"Les stratégies de Yassir et de son équipe ont boosté nos leads. Merci pour votre dévouement et votre innovation - continuez votre excellent travail !",
+    
+    
+      "heading5":"DE Entreprise",
+      "heading6":"Agence de marketing digital",
+      "description2":"Nous avons engagé NexasLeads pour aider notre nouvelle agence de marketing digital à générer de nouveaux leads et à conquérir de nouveaux marchés. Ils nous ont rapidement aidé à identifier le client cible et ont proposé une stratégie pour approcher et fidéliser ces leads. Ils sont toujours disponibles et vont au-delà des attentes pour satisfaire leurs clients. Nous travaillerons certainement avec eux à nouveau."
+  
+    },
+
+    "FAQ": {
+
+      "question1": "Qu'est-ce que le développement commercial B2B ?",
+      "answer1": "Le développement commercial B2B consiste à créer des stratégies pour identifier et engager des clients potentiels, en développant ces relations pour stimuler la croissance. Il s'agit de construire un pipeline de prospects, de les convertir en opportunités, et finalement de conclure des affaires qui correspondent aux objectifs de l'entreprise.",
+      
+      "question2": "Pourquoi le développement commercial est-il crucial pour la croissance ?",
+      "answer2": "Le développement commercial est essentiel pour une croissance durable car il crée de nouvelles sources de revenus en capturant de nouvelles opportunités de marché. Il aide les entreprises à rester compétitives, à élargir leur clientèle, et à établir des partenariats à long terme.",
+      
+      "question3": "Quels sont les défis du développement commercial ?",
+      "answer3": "Les défis incluent l'identification des bons segments de marché, la création de stratégies d'approche efficaces, et la conversion des prospects en clients. Il s'agit également de rester en avance sur la concurrence et de s'adapter aux changements du marché.",
+      
+      "question4": "Comment notre agence soutient-elle le développement commercial ?",
+      "answer4": "Nous offrons des services de développement commercial de bout en bout, y compris la génération de leads, la gestion de campagnes, et l'intégration CRM. Nous utilisons l'IA et l'automatisation marketing pour cibler les campagnes, optimiser l'approche, et obtenir des résultats en quelques semaines.",
+      
+      "question5": "Quels secteurs bénéficient le plus de nos services ?",
+      "answer5": "Nos services sont particulièrement bénéfiques pour les secteurs de la technologie, des événements, du recrutement, du nettoyage industriel, et de la transformation numérique. Nous adaptons nos stratégies aux défis spécifiques de chaque industrie pour garantir une pertinence et un impact élevés.",
+      
+      "question6": "Comment mesurons-nous le succès en développement commercial ?",
+      "answer6": "Le succès se mesure par la qualité et la quantité des leads générés, le taux de conversion de ces leads en opportunités, et le retour sur investissement des affaires conclues. Nous suivons ces indicateurs de près et ajustons nos stratégies pour maximiser les résultats.",
+      
+      "question7": "Comment gérons-nous le développement commercial en sous-traitance pour nos clients ?",
+      "answer7": "Nous gérons un email professionnel et un compte LinkedIn de votre équipe, en alignant les messages sur votre marque. Après avoir préparé le contenu et intégré les outils nécessaires, nous lançons la campagne sous votre marque, assurant que seul votre nom est visible des prospects.",
+      
+      "question8": "Quels sont les taux de conversion typiques de nos campagnes ?",
+      "answer8": "Sur LinkedIn, nous observons environ 33% d'acceptation des demandes de connexion et 15% de taux de réponse. Les campagnes par email visent un taux de réponse de 5% avec moins de 10% de taux de spam. Ces taux varient selon l'industrie et la durée de la campagne."
+    
+    },
+
+    "Navbar": {
+
+      "title1":"Accueil",
+      "title2":"À propos de nous",
+      "title3":"Solutions",
+      "title4":"Blogs",
+      "title5":"Contactez-nous",
+      "button":"Prendre rendez-vous",
+      "title6":"Formations Et Certifications",
+      "title7":"Développement Des Affaires",
+      "title8":"Intégration CRM"
+  
+    },
+
+    "Partners": {
+      "heading1": "Ils nous font confiance,",
+      "heading2":"rejoignez-les !"
+    },
+
+    "ContactUs": {
+      "heading": "Contactez-nous",
+      "button":"Envoyer",
+      "description":"N'hésitez pas à nous contacter ! Que vous ayez une question, un commentaire ou une proposition de collaboration, nous serions ravis de vous entendre.",
+      "heading1": "Nom et prénom",
+      "heading2": "E-mail",
+      "heading3": "Sujet",
+      "heading4": "Message"
+    },
+
+    "BlogPage": {
+      "heading": "Nos Blogs",
+      "heading1": "Derniers Articles Du Blog",
+      "Next":"Suivant",
+      "Previous":"Précédent",
+      "button":"En savoir plus ...",
+      "WrittenBy":"Écrit par :",
+      "In":"Dans :"
+    },
+
+    "Footer": {
+      "heading1": "Pages",
+      "heading2": "Solutions",
+      "page1":"Accueil",
+      "page2":"À propos de nous",
+      "page3":"Blogs",
+      "page4":"Contactez-nous",
+
+      "page5":"Formations Et Certifications",
+      "page6":"Développement Des Affaires",
+      "page7":"Intégration CRM",
+
+      "description": "Restez informé(e) de nos dernières actualités !",
+      "button":"À très vite !"
+
+    }
+       
+}

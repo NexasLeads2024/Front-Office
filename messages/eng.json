@@ -1,0 +1,313 @@
+{
+    "servises": {
+      "1": {
+        "name": "Training And Certifications",
+        "slug": "Training-And-Certifications",
+        "description": "Boost your team's skills with our expert training and certifications in business development and tech sales. Designed for small and medium B2B companies, we provide the tools and knowledge to find, contact, and close clients effectively.",
+        "image": "/Training-and-Certifications.png",
+        "link": "/Training-And-Certifications"
+      },
+      "2": {
+        "name": "CRM Integrations",
+        "slug": "CRM-Integrations",
+        "description": "Centralize customer interactions, boost team productivity, and prepare for future growth with HubSpot's Smart CRM. Discover seamless integration and advanced features tailored for your success. Power your customer’s sales , support and marketing with Hubspot CRM.",
+        "image": "/CRM-Integrations.png",
+        "link": "/CRM-Integrations"
+      },
+      "3": {
+        "name": "Business Development",
+        "slug": "Business-Development",
+        "description": "Find, reach, and close your ideal clients using proven outbound methods and direct marketing strategies through Email, LinkedIn, WhatsApp, and SMS Marketing. Our tailored solutions include market research, tech sales funnel creation, and access to expert business developers. Ensure clear market dominance and sustained growth with our comprehensive Go-To-Market services.",
+        "image": "/Business-Developmen.png",
+        "link": "/Business-Development"
+      }
+  },
+
+  "OurServicesPage": {
+    "title": "Our Services",
+    "button": "Know More"
+  },
+
+  "WhyUs": {
+      "1":{
+        "name": "Expand Globally at a Fraction of the Cost",
+        "position": "Imagine expanding into global markets without the expense of opening new branches or hiring full-time business developers. By partnering with our team of expert business developers, you gain access to a wide range of professional services. We help you commercialize your products/services, reach more clients, and close more deals, significantly boosting your revenue."
+      },
+      "2":{
+        "name": "Leverage a Decade of Industry Experience",
+        "position": "Our team has spent over 10 years in the business development tech B2B industry. We've worked with cutting-edge AI companies, insurtechs, e-mobility firms, top IT consultants, and international ERP providers. We help you penetrate new markets and navigate tough competition. Leveraging our skills and experience, coupled with data insights, we craft relevant sales funnels that drive your success."
+      },
+      "3":{
+        "name": "Custom-Tailored Strategies for Your Unique Needs",
+        "position": "When we say partnership, we mean it. We take the time to understand you, your services, your clients, and your market. Our approach is never the same for any two clients. We craft a unique, effective strategy to reach your target audience and generate demand for your brand. We ensure your business stands out and achieves its goals."
+      }
+    },
+
+  "WhyUsHeading": {
+      "heading": "Why Partner With Us"
+    },
+
+  "StatsCards": {
+      "DealOpportunityGenerated": "In Deal Opportunity Generated For Our Clients",
+      "Countries":"Countries",
+      "CampaignsLaunched":"Campaigns Launched",
+      "ReplyRate":"Reply Rate",
+      "heading":"Our Stats",
+      "description":"We help you to unleash the power within your business"
+  },
+  
+  "Hero": {
+    "button": "Free Consultation",
+    "heading": "Business Development",
+    "heading1": "Agency",
+    "heading2": "Leverage AI & Marketing Automation to easily find,",
+    "heading3": "reach and close new deals"
+  },
+
+  "AboutUs": {
+    "heading": "Who are",
+    "heading1": "we ?",
+    "button": "Read More",
+    "description": "NexasLeads is a Global B2B Business Development Agency, specializing in Go-To- Market Strategies, Business Expansion, and B2B revenue growth. Our solutions help Small and Medium Companies generate and qualify leads so they can generate more demand and close more deals."
+  },
+
+  "ProspectCalculator": {
+    "heading": "Prospect Calculator",
+    "email": "Number of SMS Sent On Email :",
+    "linkedin": "Number of SMS Sent On LinkedIn :",
+    "whatsapp": "Number of SMS Sent On WhatsApp :",
+    "phone": "Number of SMS Sent On Phone :",
+    "heading1": "Number of prospects"
+  },
+  
+  "AboutUsPage": {
+    "heading": "About Us",
+    "heading1": "It's what we do.",
+    "description": "At NexasLeads, our team of dedicated business developers, sales experts, lead generators, and copywriters work together to drive your B2B company's growth.",
+    "description1": "We specialize in innovative lead generation, strategic sales solutions, and compelling copywriting to help you identify, reach, and convert high-potential clients.",
+    "description2": "Our holistic approach combines cutting-edge technology with data-driven strategies, ensuring streamlined operations and significant revenue growth. Partner with NexasLeads to unlock your business's full potential and achieve unparalleled success.",
+    "button": "Find out more",
+    "DealOpportunityGenerated": "In Deal Opportunity Generated For Our Clients",
+    "Countries":"Countries",
+    "CampaignsLaunched":"Campaigns Launched",
+    "ReplyRate":"Reply Rate",
+    "heading3": "Data-Oriented",
+    "description3": "We base our decision and optimization on the Data we acquired or already have, we capitalize on existing success and then leverage it to scale your results.",
+    "button3": "Ready To grow Your Business ?",
+    "heading4": "Customer Centric",
+    "description4": "It's your business, and we are here to grow it, your opinion does not only matter but is required, so we can guarantee to have optimal results.",
+    "button4": "Ready To grow Your Business ?",
+    "heading5": "Communication Above all",
+    "description5": "You have an idea, let's talk about it, something is challenging, let's discuss solutions, as a team, we prioritize communicating in all honesty and transparency so we can harvest organizational health.",
+    "button5": "Ready To grow Your Business ?"
+  },
+
+  "TrainingAndCertifications": {
+    "heading": "Boost Your Sales with Expert Business Development Training",
+    "description": "Benefit from professional training for your in-house sales and business development teams, or even regular employees, to start generating and closing deals ASAP. Our proven method to find leads, reach out, generate meetings and demos, craft compelling proposals, and ultimately close new clients ensures you never have to rely on external lead sources—except us, of course.",
+    
+    
+    "heading1": "Our Proven Method",
+    "description1": "After years of working in the B2B tech industry, we've realized that every sales funnel follows similar steps to close a deal. We've meticulously replicated and perfected these steps to suit any B2B company. While tweaks and customizations are always required, the process remains consistent.",
+
+
+    "heading2": "Curriculum",
+
+    "card1": "ICP",
+    "card1Description1": "Learn to identify key components of your ICP to find them online.",
+    "card1Description2": "Understand their interests and how to get them to respond amidst the hundreds of messages they receive daily.",
+    
+    "card2": "CopyWriting",
+    "card2Description1": "Create messages that speak to the pain points of your leads.",
+    "card2Description2": "Position your product or service as the ideal solution.",
+    
+    "card3": "Channels",
+    "card3Description1": "Identify the channels where your ICP is most active.",
+    "card3Description2": "Master message creation for each channel to grow your open and reply rates.",
+    
+    "card4": "Selling",
+    "card4Description1": "Understand the key steps to take after a lead agrees to meet.",
+    "card4Description2": "Learn the art of building rapport and engaging leads without pitching immediately.",
+    
+    "card5": "Deals",
+    "card5Description1": "Develop strategies to close deals and turn leads into long-term clients.",
+    "card5Description2": "Practice creating compelling proposals and handling objections effectively.",
+    
+
+    "description2": "Though the process may seem simple, the devil is in the details. By attending our sessions, you will master the essential components of identifying and reaching your ICP, crafting messages that stand out, and converting leads into clients.",
+
+
+    "heading3": "Why Choose Us?",
+
+    "card6": "Expertise",
+    "card6Description1": "With years of experience in the B2B tech industry, we have honed a process that works across different sectors.",
+
+    "card7": "Proven Success",
+    "card7Description1": "Our method has helped numerous companies sharpen their sales and client acquisition skills, resulting in increased revenue and business growth.",
+
+    "card8": "Customized Approach",
+    "card8Description1": "While we provide a structured framework, we also tailor our training to meet the specific needs of your company and industry.",
+
+    "card9": "Hands-On Training",
+    "card9Description1": "Our sessions are interactive and practical, ensuring that you can apply what you learn immediately to start seeing results.",
+
+    
+    "description3": "Join us and acquire the skills needed to take control of your sales pipeline, improve your prospecting, and close more deals. Our training sessions will equip you with the knowledge and tools necessary to become self-sufficient in lead generation and business development, ensuring sustainable growth and success for your company."
+  },
+
+  "BusinessDevelopment": {
+    "heading": "We Connect You with Your Ideal Clients",
+    "heading1": "Our Proven Process for Business Development",
+    "description": "Find, reach, and close your ideal clients using proven outbound methods and direct marketing strategies through Email, LinkedIn, WhatsApp, and SMS Marketing. Our tailored solutions include market research, tech sales funnel creation, and access to expert business developers.",
+    "description1": "Ensure clear market dominance and sustained growth with our comprehensive Go-To-Market services. By following these steps, we provide a consistent flow of high-quality leads and a tailored business development solution for your unique needs.",
+    
+    "headingCard1": "Define Your Ideal Customer Profile (ICP) and Strategy",
+    "descriptionCard1": "We start by analyzing your brand specifics, value proposition, audience, and total addressable market (TAM) to define your Ideal Customer Profile (ICP) and develop a tailored business development strategy.",
+
+    "headingCard2": "Generate a Targeted Lead List",
+    "descriptionCard2": "Our team curates a list of companies that match your ICP, adding qualified decision-makers from those companies to your pipeline. This customized list ensures effective outreach and engagement.",
+
+    "headingCard3": "AI-Powered Outbound Marketing and Contact Initiation",
+    "descriptionCard3": "We integrate your lead list into our AI and marketing automation tools to conduct large-scale prospecting with personalized outreach.",
+    "description1Card3": "We configure and warm up mailboxes and prepare customized email sequences to maximize conversion rates.",
+
+    "headingCard4": "Outbound Strategies and Client Engagement",
+    "descriptionCard4": "Our expert BDs engage with prospects, follow up, and book meetings with those who show interest in your products or services.",
+    "description1Card4": "We utilize the most effective B2B direct marketing channels, such as email, LinkedIn, WhatsApp, and SMS, to reach highly specific profiles and ensure your message resonates with the right audience.",
+
+    "headingCard5": "Market Research and Opportunity Analysis",
+    "descriptionCard5": "We conduct thorough market research and identify new opportunities to ensure your business stays ahead of the competition. This helps in refining your approach and targeting the right market segments.",
+
+    "headingCard6": "Business Development and Conversion",
+    "descriptionCard6": "Our specialized team nurtures these relationships, leveraging our expertise in business development to convert leads into long-term clients. We focus on building trust and delivering value to drive your business growth."
+
+
+  },
+
+  "Section": {
+      "heading": "Take Your Business to",
+      "heading1":"The Next Level",
+      "description":"Benefit From a Quick Call If You Want to Land More Deals",
+      "button":"Free Consultation Call",
+      "button1":"Know More"
+  },
+
+  "CRMIntegrations": {
+      "heading": "Transform Customer Relationships with Seamless HubSpot CRM Integration",
+      "card1":"HubSpot CRM Integration",
+      "description1":"Managing customer relationships is crucial for growth. As partners of HubSpot, we offer seamless integration to organize, track, and nurture your customer interactions. HubSpot's CRM centralizes all your customer information, making it accessible to your entire team, ensuring an optimal customer experience.",
+      "card2":"Your Business Needs a CRM",
+      "description2":"A CRM centralizes all your lead and customer information, providing better visibility into your sales team's productivity. No more scattered data: a CRM increases efficiency and streamlines workflow.",
+      "card3":"Team Collaboration and Productivity",
+      "description3":"A CRM captures all customer interactions in one place, ensuring every team member has the context needed to continue conversations smoothly. This fosters better collaboration and improves productivity.",
+      "card4":"Future-Proof Your Growth",
+      "description4":"HubSpot CRM evolves with your needs, offering advanced features like live chat and meeting scheduling.",
+      "description5":"Adopt a CRM now to handle increased customer interactions, improve efficiency, and provide a consistent, high-quality customer experience."
+  },
+  
+  "Reviews": {
+
+    "heading":"Reviews",
+
+    "heading1": "Abu Agency",
+    "heading2":"Software & IT Services",
+    "description":"NexasLeads helped us set up a sales and marketing funnel with proper outreach and even a CRM with hubspot to track our leads and follow up with them , honestly they went beyond our expectations and added multiple bonuses since we didn't about the sales channels much.",
+    
+    
+    "heading3":"Mehdi Abou",
+    "heading4":"Head Of sales Hardware Company",
+    "description1":"Yassir and his team's strategies have boosted our leads. Thanks for your dedication and innovation - keep up the great work!",
+  
+  
+    "heading5":"DE Entreprise",
+    "heading6":"Digital Marketing Agency",
+    "description2":"We hired NexasLeads to help our new digital marketing company generate new leads and acquire new markets , was quick to help us identify the target customer and proposed a strategy to outreach and nurture said leads , they are always available and go the extra step to satisfy their clients ,will definitely work with again."
+
+  },
+
+  "FAQ": {
+    
+      "question1": "What is B2B business development?",
+      "answer1": "B2B business development involves creating strategies to identify and engage with potential business clients, nurturing these relationships to drive growth. It’s about building a pipeline of leads, converting them into opportunities, and ultimately, closing deals that align with the company’s goals.",
+      
+      "question2": "Why is business development crucial for growth?",
+      "answer2": "Business development is key to sustainable growth because it creates new revenue streams by identifying and capturing new market opportunities. It helps businesses stay competitive, expand their client base, and build long-term partnerships that drive continuous growth.",
+      
+      "question3": "What are the challenges in business development?",
+      "answer3": "Challenges include identifying the right market segments, crafting effective outreach strategies, and converting leads into clients. It also involves staying ahead of competitors and adapting to market changes while ensuring the sales pipeline remains robust.",
+      
+      "question4": "How does our agency support business development?",
+      "answer4": "We provide end-to-end business development services, including lead generation, campaign management, and CRM integration. Our team uses AI and marketing automation to run targeted campaigns, optimize outreach, and deliver results within weeks.",
+      
+      "question5": "What industries benefit most from our services?",
+      "answer5": "Our services are particularly beneficial for tech, events, staffing, industrial cleaning, and digital transformation industries. We tailor our strategies to each industry’s unique challenges, ensuring high relevance and impact in our campaigns.",
+      
+      "question6": "How do we measure success in business development?",
+      "answer6": "Success is measured by the quality and quantity of leads generated, the conversion rate of these leads into opportunities, and the ROI from closed deals. We track these metrics closely and adjust strategies to maximize results.",
+      
+      "question7": "How do we handle third-party business development for our clients?",
+      "answer7": "We manage a professional email and LinkedIn account from your team, aligning messaging with your brand. After preparing the copy and integrating necessary tools, we launch the campaign under your brand, ensuring only your name is visible to prospects.",
+      
+      "question8": "What are the typical conversion rates for our campaigns?",
+      "answer8": "For LinkedIn, we see about 33% connection request acceptance and 15% reply rates. Email campaigns aim for a 5% reply rate with less than 10% spam rates. These metrics vary by industry and campaign duration."
+    
+  },
+
+  "Navbar": {
+
+      "title1": "Home",
+      "title2":"About Us",
+      "title3":"Solutions",
+      "title4":"Blogs",
+      "title5":"Contact Us",
+      "button":"Book a meeting",
+      "title6":"Training And Certifications",
+      "title7":"Business Development",
+      "title8":"CRM Integrations"
+  
+    },
+
+    "Partners": {
+      "heading1": "They trust us,",
+      "heading2":"join them!"
+    },
+
+    "ContactUs": {
+      "heading": "Contact Us",
+      "button":"Send",
+      "description":"Feel free to reach out to us! Whether you have a question, feedback, or a collaboration proposal, we'd love to hear from you.",
+      "heading1": "Full Name",
+      "heading2": "E-mail",
+      "heading3": "Subject",
+      "heading4": "Message"
+    },
+
+    "BlogPage": {
+      "heading": "Our Blogs",
+      "heading1": "Latest Blog Posts",
+      "Next":"Next",
+      "Previous":"Previous",
+      "button":"Read More ...",
+      "WrittenBy":"Written By :",
+      "In":"In :"
+    },
+
+    "Footer": {
+      "heading1": "Pages",
+      "heading2": "Solutions",
+      "page1":"Home",
+      "page2":"About Us",
+      "page3":"Blogs",
+      "page4":"Contact Us",
+
+      "page5":"Training And Certifications",
+      "page6":"Business Development",
+      "page7":"CRM Integrations",
+
+      "description": "Receive information about our current information!",
+      "button":"See you soon !"
+
+    }
+    
+
+}
