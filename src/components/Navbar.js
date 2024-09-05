@@ -113,10 +113,10 @@ export default function Navbar({ params = {} }) {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white bg-blue-4000 shadow-md z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-7">
-        <div className="flex justify-between items-center h-16 bg-yellow-4000">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-7 bg-red-4000">
+        <div className="flex justify-around items-center h-16 bg-yellow-4000">
           {/* Desktop Logo */}
-          <div className="flex-shrink-0 hidden md:block">
+          <div className="flex-shrink-0 hidden lg:block bg-blue-4000">
             <Link
               className="flex gap-x-2 items-center"
               href={`/${locale}/`}
@@ -131,32 +131,38 @@ export default function Navbar({ params = {} }) {
                 style={{ width: "60px", height: "auto" }}
                 layout="intrinsic"
               />
-              <span className="text-lg font-semibold">NexasLeads</span>
+              <span className="hidden lg:block text-lg font-semibold">
+                NexasLeads
+              </span>
             </Link>
           </div>
-
           {/* Mobile Logo */}
-          <div className="flex-1 flex items-center justify-between space-x-10">
-            <div className="flex-shrink-0 md:hidden">
-              <Link href={`/${locale}/`} locale={locale}>
+          <div className="flex-1 flex items-center justify-start space-x-1077 bg-cyan-4000">
+            <div className="flex-shrink-0 lg:hidden">
+              <Link
+                href={`/${locale}/`}
+                locale={locale}
+                className="flex gap-x-2"
+              >
                 <Image
                   src={logo}
                   alt="NexasLeads"
                   width={150}
                   height={50}
                   priority
-                  style={{ width: "150px", height: "auto" }}
+                  style={{ width: "50px", height: "auto" }}
                   layout="intrinsic"
-                />
+                />{" "}
+                <span className="text-lg font-semibold">NexasLeads</span>
               </Link>
             </div>
 
             {/* Desktop Navigation Links */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden lg:flex gap-x-[5%] items-center ps-6 bg-green-4000">
               <Link
                 href={`/${locale}/`}
                 locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md ml-20 ${
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
                   currentPath === `/${locale}/` || currentPath === `/${locale}`
                     ? " font-bold "
                     : " "
@@ -164,11 +170,10 @@ export default function Navbar({ params = {} }) {
               >
                 {data.title1}
               </Link>
-
               <Link
                 href={`/${locale}/AboutUs`}
                 locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md ml-20 ${
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
                   currentPath === `/${locale}/AboutUs` ? " font-bold " : " "
                 }`}
               >
@@ -228,8 +233,10 @@ export default function Navbar({ params = {} }) {
               <Link
                 href={`/${locale}/Blog`}
                 locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md ml-20 ${
-                  currentPath === `/${locale}/Blog` ? " font-bold " : " "
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
+                  currentPath.startsWith(`/${locale}/Blog`)
+                    ? " font-bold "
+                    : " "
                 }`}
               >
                 {data.title4}
@@ -237,62 +244,77 @@ export default function Navbar({ params = {} }) {
               <Link
                 href={`/${locale}/ContactUs`}
                 locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md ml-20 ${
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
                   currentPath === `/${locale}/ContactUs` ? " font-bold " : " "
                 }`}
               >
                 {data.title5}
               </Link>
             </div>
-
-            {/* Desktop Button */}
-            <div className="hidden md:flex items-center">
+          </div>{" "}
+          {/* Desktop Button */}
+          <div className="hidden lg:flex items-center gap-x-4">
+            <div className="flex font-semibold gap-x-1">
               <Link
-                href="https://calendly.com/yassir-gazani-auy/20"
-                target="_blank"
+                href={getLocalizedPath("fr")}
+                locale="fr"
+                onClick={() => setLanguage("fr")}
+                className={`${locale == "fr" ? "underline " : " "}`}
               >
-                {/* <div className="flex justify-center items-center cursor-pointer group relative gap-1.5 px-6 py-3 bg-[#ffd126] text-black rounded-lg hover:bg-[#f8c600] transition font-semibold text-md ml-10">
-                  {data.button}
-                </div> */}
-                {/* <div class="mx-auto flex min-h-screen max-w-screen-sm items-center justify-center"> */}
-                <div class="h-fit w-fit rounded-3xl bg-gradient-to-r from-[#e24545] vida-red-500 to-yellow-400 px-[2.5px] py-[2.6px] group">
-                  <div class="flex h-fit w-fit items-center justify-center bg-white group-hover:bg-[#e24545] rounded-3xl px-4 py-2">
-                    <h1 class="text-md font-semibold text-[#e24545] group-hover:text-white text-nowrap">
-                      {data.button}
-                    </h1>
-                  </div>
-                </div>
-                {/* </div> */}
-                {/* <button className="bg-transparent border-2 border-gradient text-[#e24545] font-semibold py-2 px-4 rounded-full hover:bg-[#e24545] hover:text-white transition duration-300 ease-in-out">
-                  {data.button}
-                </button> */}
+                FR
+              </Link>
+              <span>|</span>
+              <Link
+                href={getLocalizedPath("en")}
+                locale="en"
+                onClick={() => setLanguage("en")}
+                className={`${locale == "en" ? "underline " : " "}`}
+              >
+                EN
               </Link>
             </div>
-
-            {/* Mobile Menu Button */}
-            <div className="-mr-2 flex md:hidden">
-              <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="text-gray-700 hover:text-[#ffd126] focus:outline-none focus:text-blue-600"
-                aria-label={isOpen ? "Close menu" : "Open menu"}
+            <Link
+              href="https://calendly.com/yassir-gazani-auy/20"
+              target="_blank"
+            >
+              {/* <div className="flex justify-center items-center cursor-pointer group relative gap-1.5 px-6 py-3 bg-[#ffd126] text-black rounded-lg hover:bg-[#f8c600] transition font-semibold text-md ml-10">
+                  {data.button}
+                </div> */}
+              {/* <div class="mx-auto flex min-h-screen max-w-screen-sm items-center justify-center"> */}
+              <div class="h-fit w-fit rounded-3xl bg-gradient-to-r from-[#e24545] vida-red-500 to-yellow-400 px-[2.5px] py-[2.6px] group">
+                <div class="flex h-fit w-fit items-center justify-center bg-white group-hover:bg-[#e24545] rounded-3xl px-4 py-2">
+                  <h1 class="text-md font-semibold text-[#e24545] group-hover:text-white text-nowrap">
+                    {data.button}
+                  </h1>
+                </div>
+              </div>
+              {/* </div> */}
+              {/* <button className="bg-transparent border-2 border-gradient text-[#e24545] font-semibold py-2 px-4 rounded-full hover:bg-[#e24545] hover:text-white transition duration-300 ease-in-out">
+                  {data.button}
+                </button> */}
+            </Link>
+          </div>
+          {/* Mobile Menu Button */}
+          <div className="-mr-2 flex lg:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-gray-700 hover:text-[#ffd126] focus:outline-none focus:text-blue-600"
+              aria-label={isOpen ? "Close menu" : "Open menu"}
+            >
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d={
-                      isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"
-                    }
-                  />
-                </svg>
-              </button>
-            </div>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -301,7 +323,7 @@ export default function Navbar({ params = {} }) {
       <div
         className={`fixed inset-0 bg-white shadow-md z-40 transition-transform transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
-        } md:hidden`}
+        } lg:hidden`}
       >
         <div className="flex flex-col p-4">
           <button
@@ -382,7 +404,7 @@ export default function Navbar({ params = {} }) {
             href={`/${locale}/Blog`}
             locale={locale}
             className={`text-gray-700 hover:text-[#ffd126] text-md py-2 ${
-              currentPath === `/${locale}/Blog` ? " font-bold " : " "
+              currentPath.startsWith(`/${locale}/Blog`) ? "font-bold" : ""
             }`}
           >
             {data.title4}
@@ -400,8 +422,8 @@ export default function Navbar({ params = {} }) {
             <Link
               href={getLocalizedPath("fr")}
               locale="fr"
-              className="flex items-center justify-center hover:underline"
               onClick={() => setLanguage("fr")}
+              className="flex items-center justify-center hover:underline"
             >
               <Image
                 src={frenchFlag}

@@ -23,12 +23,14 @@ const BlogPost = () => {
   useEffect(() => {
     const fetchPost = async () => {
       try {
-        // const response = await fetch(`https://back-end-beryl-seven.vercel.app/blogs/${id}`);
         const response = await fetch(
-          `${process.env.NEXT_PUBLIC_APP_URL_ADMIN}/blogs/${id}`
+          `${process.env.NEXT_PUBLIC_SERVER}/blogs/${id}`
         );
         if (!response.ok) {
-          throw new Error("Failed to fetch post");
+          throw new Error(
+            process.env.NEXT_PUBLIC_SERVER,
+            " Failed to fetch post"
+          );
         }
         const data = await response.json();
         setPost(data);
@@ -42,7 +44,8 @@ const BlogPost = () => {
     const fetchLatestPosts = async () => {
       try {
         const response = await fetch(
-          "https://back-end-beryl-seven.vercel.app/blogs"
+          // "https://back-end-beryl-seven.vercel.app/blogs"
+          "http://localhost:8000/blogs"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch posts");
@@ -66,7 +69,7 @@ const BlogPost = () => {
 
   return (
     <div>
-      <div className="mx-auto p-5 sm:p-10 md:p-16 relative bg-[#e24545]">
+      <div className="mx-auto p-5 sm:p-10 md:p-16 relative bg-gray-50">
         <Navbar />
         <div
           className="bg-cover bg-center text-center overflow-hidden"

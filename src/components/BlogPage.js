@@ -17,7 +17,8 @@ const LatestBlogPosts = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://back-end-beryl-seven.vercel.app/blogs"
+          // "https://back-end-beryl-seven.vercel.app/blogs"
+          "http://localhost:8000/blogs"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch posts");
