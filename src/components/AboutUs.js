@@ -47,7 +47,8 @@ const AboutUs = () => {
       // Smooth sine wave animation with varying frequency and amplitude
       const freq = (index + 1) * 0.5;
       const amp = 10;
-      const newValue = value + Math.sin(time * freq) * amp + (Math.random() - 0.5) * 5;
+      const newValue =
+        value + Math.sin(time * freq) * amp + (Math.random() - 0.5) * 5;
       return Math.max(0, Math.min(100, newValue)); // Ensure values stay within 0-100
     });
   };
@@ -96,7 +97,7 @@ const AboutUs = () => {
       tooltip: {
         callbacks: {
           label: function () {
-            return ''; // Return an empty string to remove the number from the tooltip
+            return ""; // Return an empty string to remove the number from the tooltip
           },
         },
       },
@@ -108,17 +109,17 @@ const AboutUs = () => {
       annotation: {
         annotations: {
           label: {
-            type: 'label',
+            type: "label",
             xValue: 3.5, // Center position
             yValue: -15, // Adjust vertical position if needed
-            backgroundColor: 'transparent',
-            borderColor: 'transparent',
+            backgroundColor: "transparent",
+            borderColor: "transparent",
             font: {
               size: 24, // Font size for the label
-              weight: 'bold',
+              weight: "bold",
             },
-            content: 'Qualified Leads',
-            color: '#e24545', // Text color
+            content: "Qualified Leads",
+            color: "#e24545", // Text color
           },
         },
       },
@@ -131,7 +132,7 @@ const AboutUs = () => {
   return (
     <div className="mt-10 mb-10 sm:pl-20 sm:pr-20 pl-5 pr-5 pt-10 flex flex-col sm:flex-row-reverse bg-slate-400 bg-opacity-15 items-center justify-between sm:pt-10 sm:pb-10">
       <div className="sm:w-1/2 w-full mt-8 sm:mt-0">
-        <h2 className="my-4 font-bold text-2xl sm:text-4xl text-center sm:mt-20 -mt-10">
+        <h2 className="my-4 font-bold text-2xl sm:text-4xl text-start sm:mt-20 -mt-10 px-4 sm:px-8">
           {data.heading}
           <span className="text-[#e24545]"> {data.heading1} </span>
         </h2>
@@ -139,17 +140,17 @@ const AboutUs = () => {
           {data.description}
         </p>
         <Link href={`/${locale}/ContactUs`}>
-        <button className="cursor-pointer transition-all duration-500 p-[10px] rounded-[24px] flex items-center justify-center gap-4 bg-gradient-to-r bg-[#e24545] hover:bg-black w-full max-w-[300px] mx-auto">
-          <span className="text-[1.5rem] font-bold text-white tracking-wider">
-          {data.button}
-          </span>
-        </button>
-      </Link>      
+          <button className="cursor-pointer transition-all duration-500 p-1 rounded-[24px] flex items-center justify-center gap-4 bg-gradient-to-r bg-[#e24545] hover:bg-black w-full max-w-[300px] mx-auto">
+            <span className="text-[1.5rem] font-semibold text-white tracking-wider">
+              {data.button}
+            </span>
+          </button>
+        </Link>
       </div>
       <div className="sm:w-1/2 w-full px-0 sm:px-8 flex items-center justify-center sm:mt-20 mt-10 sm:mb-10 -mb-10">
         <div className="w-full h-64 sm:h-80">
           <Bar data={chartData} options={chartOptions} />
-        </div>  
+        </div>
       </div>
     </div>
   );

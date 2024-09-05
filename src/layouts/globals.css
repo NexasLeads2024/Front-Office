@@ -27,17 +27,14 @@
 }
 
 .bg::before {
-  content: '';
+  content: "";
   position: absolute;
   aspect-ratio: 1/1;
   top: 50%;
   left: 50%;
   min-width: 150%;
   min-height: 150%;
-  background-image: conic-gradient(
-    #ffffff,
-    #e24545
-  );
+  background-image: conic-gradient(#ffffff, #e24545);
   animation: speeen 4s linear infinite;
   transform-origin: 0% 0%;
   transform: rotate(0deg) translate(-50%, -50%);
@@ -52,12 +49,6 @@
     transform: rotate(360deg) translate(-50%, -50%);
   }
 }
-
-
-
-
-
-
 
 .prospect-calculator {
   display: flex;
@@ -114,10 +105,6 @@
   }
 }
 
-
-
-
-
 .container1 {
   width: 100%;
   height: 100%;
@@ -169,12 +156,10 @@
   background-size: 40px 60px;
 }
 
-
-
 .carousel3 {
   position: relative;
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .carousel3 .carousel__text3 {
@@ -182,22 +167,18 @@
   font-size: 1.4rem;
   color: black;
   white-space: nowrap;
-  padding: 0 1rem; 
+  padding: 0 1rem;
   animation: carousel 6s linear infinite;
 }
 
 @keyframes carousel {
   0% {
-    transform: translateX(0); 
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
   }
 }
-
-
-
-
 
 .carousel4 {
   position: relative;
@@ -219,10 +200,9 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
   }
 }
-
 
 .relative {
   position: relative;
@@ -246,8 +226,6 @@
   }
 }
 
-
-
 .animate-scroll1 {
   display: flex;
   animation: scroll 8s linear infinite;
@@ -255,7 +233,7 @@
 
 /* Hero */
 .hacking {
-  display: inline-block; 
+  display: inline-block;
   background: linear-gradient(
     90deg,
     #e24545,
@@ -298,25 +276,33 @@
 
 .hero img {
   position: absolute;
-  width: 300px;
-  height: 300px;
   object-fit: contain;
+  /* filter: drop-shadow(8px 6px 3px #e9643e); */
+  filter: drop-shadow(0.5rem 0.2rem 0.75rem #e24545);
+  /* box-shadow: 8px 6px 3px #e9643e, 8px 6px 6px #f86b43; */
 }
 
 .hero-one {
-  top: 20px;
-  left: 80px;
+  top: 100px;
+  left: 20px;
+  width: 240px;
+  height: 240px;
 }
 .hero-two {
   top: 200px;
   right: 100px;
+  width: 240px;
+  height: 240px;
 }
 .hero-three {
-  bottom: -40px;
+  bottom: 25px;
   left: 200px;
+  width: 180px;
+  height: 180px;
 }
 
 .hero h2 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   width: 100%;
   margin-bottom: 70px;
@@ -324,52 +310,48 @@
   z-index: 1;
   overflow: visible;
   position: relative;
-  font-size:80px;
-  font-weight: 800;
+  /* style update */
+  /* font-size:80px; */
+  font-size: 56px;
+  font-weight: 700;
   color: #e24545;
 }
 
 .hero h4,
-
 p {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.hero p {
-  text-align: center;
-  font-size: 26px;
-  color: #e24545;
-}
+
 
 .cta-button {
-  width: 40%;
+  /* style update */
+  /* width: 48%; */
+  width: 48%;
   height: 60px;
-  border-radius: 20px; 
-  border: 3px solid #e24545; 
+  border-radius: 20px;
+  border: 3px solid #e24545;
   background-color: #fdfdfd;
-  font-size: 30px; 
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
   background-color: white;
   color: #e24545;
   cursor: pointer;
-  transition:
-    background-color 0.3s ease,
-    border-color 0.3s ease; 
+  transition: background-color 0.3s ease, border-color 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px auto; 
-  padding: 0 20px; 
-  box-shadow: #e24545,
+  margin: 20px auto;
+  padding: 0 20px;
+  box-shadow: #e24545;
 }
 
 .cta-button:hover {
   background-color: #e24545;
   color: white;
-
 }
 
 .hero h4 {
@@ -403,169 +385,177 @@ p {
   }
 }
 
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 16px !important;
+  height: 4px !important;
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+}
 
+.swiper-pagination {
+  bottom: 2px !important;
+}
 
+.swiper-wrapper {
+  height: max-content !important;
+  width: max-content !important;
+  padding-bottom: 64px;
+}
 
+.swiper-pagination-bullet-active {
+  background: #4f46e5 !important;
+}
 
+.swiper-slide.swiper-slide-active > .slide_active\:border-indigo-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(79 70 229 / var(--tw-border-opacity));
+}
 
+.swiper-slide.swiper-slide-active > .group .slide_active\:text-gray-800 {
+  ---tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
 
+.perspective {
+  perspective: 1000px;
+}
+.flip-card {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out;
+}
+.flip-card:hover {
+  transform: rotateY(180deg);
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
 
+/* Hide Scrollbar Styles */
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
 
-.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-            width: 16px !important;
-            height: 4px !important;
-            border-radius: 5px !important;
-            margin: 0 6px !important;
-        }
+.card3-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 90%;
+}
 
-        .swiper-pagination {
-            bottom: 2px !important;
-        }
+.card3 {
+  width: 18%;
+  aspect-ratio: 1/1.5;
+  position: relative;
+  margin: 10px 0;
+}
 
-        .swiper-wrapper {
-            height: max-content !important;
-            width: max-content !important;
-            padding-bottom: 64px;
-        }
+.card3-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
 
-        .swiper-pagination-bullet-active {
-            background: #4F46E5 !important;
-        }
-        
-        .swiper-slide.swiper-slide-active>.slide_active\:border-indigo-600 {
-            --tw-border-opacity: 1;
-            border-color: rgb(79 70 229 / var(--tw-border-opacity));
-        }
+.card3-front,
+.card3-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
-        .swiper-slide.swiper-slide-active>.group .slide_active\:text-gray-800 {
-            ---tw-text-opacity: 1;
-            color: rgb(31 41 55 / var(--tw-text-opacity));
-        }
+.card3-front {
+  background-color: #f0f0f0;
+  color: #333;
+}
 
+.card3-back {
+  --tw-bg-opacity: 1;
+  background-color: white; /* #94a3b8 */
+  color: black;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column; /* Stack descriptions vertically */
+  justify-content: center;
+  align-items: center;
+}
 
+.card3-back p {
+  margin: 10px 0; /* Add space between each description */
+  width: 90%; /* Optional: Control width for better readability */
+}
 
+.card3-inner:hover {
+  transform: rotateY(180deg);
+}
 
-        .perspective {
-          perspective: 1000px;
-        }
-        .flip-card {
-          transform-style: preserve-3d;
-          transition: transform 0.3s ease-in-out;
-        }
-        .flip-card:hover {
-          transform: rotateY(180deg);
-        }
-        .backface-hidden {
-          backface-visibility: hidden;
-        }
-        .rotate-y-180 {
-          transform: rotateY(180deg);
-        }
-        
-        /* Hide Scrollbar Styles */
-        .hide-scroll-bar {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-        }
-        .hide-scroll-bar::-webkit-scrollbar {
-          display: none;
-        }
+/* Mobile styles */
+@media (max-width: 768px) {
+  .card3 {
+    width: 100%; /* Make each card take full width */
+    margin: 10px 0; /* Adjust margin for spacing */
+  }
+}
+@keyframes initialMove1 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(8px) translateY(-4px); /* Small initial movement */
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes initialMove2 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-8px) translateY(-6px); /* Small initial movement */
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes initialMove3 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(8px) translateY(8px); /* Small initial movement */
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
 
-
-
-
-
-
-
-
-        .card3-container {
-          display: flex;
-          justify-content: space-between;
-          flex-wrap: wrap;
-          margin: 0 auto;
-          max-width: 90%;
-        }
-        
-        .card3 {
-          width: 18%;
-          aspect-ratio: 1/1.5;
-          position: relative;
-          margin: 10px 0;
-        }
-        
-        .card3-inner {
-          width: 100%;
-          height: 100%;
-          position: relative;
-          transition: transform 0.6s;
-          transform-style: preserve-3d;
-        }
-        
-        .card3-front, .card3-back {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          padding: 10px;
-          box-sizing: border-box;
-        }
-        
-        .card3-front {
-          background-color: #f0f0f0;
-          color: #333;
-        }
-        
-        .card3-back {
-          --tw-bg-opacity: 1;
-          background-color: white; /* #94a3b8 */
-          color: black;
-          transform: rotateY(180deg);
-          display: flex;
-          flex-direction: column; /* Stack descriptions vertically */
-          justify-content: center;
-          align-items: center;
-        }
-        
-        .card3-back p {
-          margin: 10px 0; /* Add space between each description */
-          width: 90%; /* Optional: Control width for better readability */
-        }
-        
-        .card3-inner:hover {
-          transform: rotateY(180deg);
-        }
-        
-        /* Mobile styles */
-        @media (max-width: 768px) {
-          .card3 {
-            width: 100%; /* Make each card take full width */
-            margin: 10px 0; /* Adjust margin for spacing */
-          }
-        }
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+.object1 {
+  animation: initialMove1 2s ease-in-out infinite; /* Adjust duration and easing */
+  animation-fill-mode: forwards; /* Ensures the element stays at the end state */
+}
+.object2 {
+  animation: initialMove2 2s ease-in-out infinite; /* Adjust duration and easing */
+  animation-fill-mode: forwards; /* Ensures the element stays at the end state */
+}
+.object3 {
+  animation: initialMove3 2s ease-in-out infinite; /* Adjust duration and easing */
+  animation-fill-mode: forwards; /* Ensures the element stays at the end state */
+}
