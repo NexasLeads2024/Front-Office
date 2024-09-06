@@ -29,26 +29,26 @@ export default function Hero() {
   //     window.removeEventListener("mousemove", handleMouseMove);
   //   };
   // }, []);
-useEffect(() => {
-  const elements = document.querySelectorAll(".object");
+  useEffect(() => {
+    const elements = document.querySelectorAll(".object");
 
-  const handleMouseMove = (e) => {
-    elements.forEach((move) => {
-      const movingValue = move.getAttribute("data-value");
-      const x = (e.clientX * movingValue) / 50;
-      const y = (e.clientY * movingValue) / 50;
+    const handleMouseMove = (e) => {
+      elements.forEach((move) => {
+        const movingValue = move.getAttribute("data-value");
+        const x = (e.clientX * movingValue) / 50;
+        const y = (e.clientY * movingValue) / 50;
 
-      // Remove the initial animation class when the mouse moves
-      move.style.animation = "none";
-      move.style.transform = `translateX(${x}px) translateY(${y}px)`;
-    });
-  };
+        // Remove the initial animation class when the mouse moves
+        move.style.animation = "none";
+        move.style.transform = `translateX(${x}px) translateY(${y}px)`;
+      });
+    };
 
-  window.addEventListener("mousemove", handleMouseMove);
-  return () => {
-    window.removeEventListener("mousemove", handleMouseMove);
-  };
-}, []);
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
 
   const { locale } = useParams();
   const data = locale === "fr" ? Fr.Hero : En.Hero;
@@ -56,7 +56,7 @@ useEffect(() => {
   return (
     <div>
       <div className="hero -mt-10 sm:mt-2 mb-16 min-h-screen ">
-        <div className="hero-text">
+        <div className="hero-text text-center">
           <h2 className="mt-20">
             {data.heading}
             <br />
@@ -66,6 +66,7 @@ useEffect(() => {
             {data.heading2}
             <br /> {data.heading3}
           </p>
+          <span className="text-center">SEA・SMA・SEO・Lead・data・CRM </span>
           <Link href={`/${locale}/ContactUs`} passHref>
             <button className="cta-button w-[200px] h-[90px] text-nowrap">
               {data.button}

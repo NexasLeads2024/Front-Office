@@ -47,11 +47,11 @@
   },
 
   "StatsCards": {
-    "DealOpportunityGenerated": "En Opportunités D'affaires Générées Pour Nos Clients",
+    "DealOpportunityGenerated": "En Deal D'affaires Générées Pour Nos Clients",
     "Countries": "Pays",
     "CampaignsLaunched": "Campagnes Lancées",
     "ReplyRate": "Taux de Réponse",
-    "heading": "Nos Statistiques",
+    "heading": "Les chiffres ne mentent pas",
     "description": "Nous vous aidons à libérer la puissance de votre entreprise"
   },
 
@@ -71,6 +71,7 @@
   },
 
   "ProspectCalculator": {
+    "button": "Restrons en contact",
     "heading": "Calculateur de nombre de prospects selon nombre de SMS envoyé",
     "email": "Nombre de SMS envoyés par e-mail :",
     "linkedin": "Nombre de SMS envoyés sur Linkedin :",
@@ -198,7 +199,8 @@
   },
 
   "Reviews": {
-    "heading": "Avis de Nos Clients",
+    "headingHack": "Nos clients",
+    "heading": "parlent de nous",
     "heading1": "Abu Agency",
     "heading2": "Services logiciels et informatiques",
     "description": "NexasLeads nous a aidés à mettre en place un entonnoir de vente et de marketing avec une approche efficace et même un CRM avec HubSpot pour suivre nos leads et assurer leur suivi. Honnêtement, ils ont dépassé nos attentes et ajouté plusieurs bonus, car nous ne connaissions pas beaucoup les canaux de vente.",

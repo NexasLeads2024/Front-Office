@@ -41,7 +41,7 @@ export default function OurServices() {
                   } text-gray-900 rounded-full border-transparent transition-all duration-200 cursor-pointer tab-items font-chivo text-sm px-4 py-1 md:text-base md:px-6 md:py-3 lg:px-8 lg:py-2 hover:bg-[#e24545] hover:text-black border-2 hover:border-[#e24545]`}
                   onClick={() => setService(currService)}
                 >
-                  lalala {currService.name}
+                  {currService.name}
                 </button>
               );
             })}

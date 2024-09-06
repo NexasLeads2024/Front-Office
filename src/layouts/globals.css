@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+  font-family: "Montserrat", sans-serif;
+}
 .card {
   position: relative;
   width: 400px;
@@ -251,6 +253,12 @@
   line-height: 1.2; /* Increase line-height */
   padding-bottom: 5px; /* Add padding to avoid clipping */
 }
+.title-hacking {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+}
 
 @keyframes colorWaving {
   0% {
@@ -314,7 +322,8 @@
   /* font-size:80px; */
   font-size: 56px;
   font-weight: 700;
-  color: #e24545;
+  /* color: #e24545; */
+  color: #47505f;
 }
 
 .hero h4,
@@ -323,8 +332,6 @@ p {
   margin-bottom: 30px;
   text-align: center;
 }
-
-
 
 .cta-button {
   /* style update */

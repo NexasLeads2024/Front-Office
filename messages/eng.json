@@ -52,7 +52,7 @@
     "Countries": "Countries",
     "CampaignsLaunched": "Campaigns Launched",
     "ReplyRate": "Reply Rate",
-    "heading": "Our Stats",
+    "heading": " Numbers Don’t Lie",
     "description": "We help you to unleash the power within your business"
   },
 
@@ -72,6 +72,7 @@
   },
 
   "ProspectCalculator": {
+    "button": "Let's Talk",
     "heading": "Prospect Calculator",
     "email": "Number of SMS Sent On Email :",
     "linkedin": "Number of SMS Sent On LinkedIn :",
@@ -199,7 +200,8 @@
   },
 
   "Reviews": {
-    "heading": "Reviews",
+    "headingHack": "Our customers",
+    "heading": "talk about us",
 
     "heading1": "Abu Agency",
     "heading2": "Software & IT Services",

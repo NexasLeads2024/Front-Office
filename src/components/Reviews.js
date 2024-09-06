@@ -1,26 +1,25 @@
 "use client";
-import React from 'react';
+import React from "react";
 import { useParams } from "next/navigation";
-import En from "../../messages/eng.json"; 
+import En from "../../messages/eng.json";
 import Fr from "../../messages/fr.json";
 const CardCarousel = () => {
   const { locale } = useParams();
   const data = locale === "fr" ? Fr.Reviews : En.Reviews;
   return (
     <div className="bg-slate-400 bg-opacity-15 mt-10">
-      <h2 className="font-bold font-chivo text-2xl md:text-3xl lg:text-4xl text-[#e24545] text-center pt-10">
-       {data.heading}
+      <h2 className="title-hacking text-gray-900 text-center pt-10">
+        <span className="hacking">{data.headingHack}</span> {data.heading}
       </h2>
+      <h2></h2>
       <div className="grid gap-6 text-center md:grid-cols-3 lg:gap-12 pb-20 pt-10 pr-10 pl-10">
         {/* Review 1 */}
         <div className="mb-12 md:mb-0 border-2 border-[#e24545] rounded-lg p-6">
           <h3 className="mb-4 text-2xl font-bold">{data.heading1}</h3>
           <h2 className="text-black mb-4 font-semibold text-xl">
-          {data.heading2}
+            {data.heading2}
           </h2>
-          <p className="mb-4 text-black">
-          {data.description}
-          </p>
+          <p className="mb-4 text-black">{data.description}</p>
           <ul className="mb-0 flex items-center justify-center">
             {[...Array(5)].map((_, index) => (
               <li key={index}>
@@ -45,11 +44,9 @@ const CardCarousel = () => {
         <div className="mb-12 md:mb-0 border-2 border-[#e24545] rounded-lg p-6">
           <h3 className="mb-4 text-2xl font-bold">{data.heading3}</h3>
           <h2 className="text-black mb-4 font-semibold text-xl">
-          {data.heading4}
+            {data.heading4}
           </h2>
-          <p className="mb-4 text-black">
-          {data.description1}
-          </p>
+          <p className="mb-4 text-black">{data.description1}</p>
           <ul className="mb-0 flex items-center justify-center">
             {[...Array(5)].map((_, index) => (
               <li key={index}>
@@ -74,11 +71,9 @@ const CardCarousel = () => {
         <div className="mb-12 md:mb-0 border-2 border-[#e24545] rounded-lg p-6">
           <h3 className="mb-4 text-2xl font-bold">{data.heading5}</h3>
           <h2 className="text-black mb-4 font-semibold text-xl">
-          {data.heading6}
+            {data.heading6}
           </h2>
-          <p className="mb-4 text-black">
-          {data.description2}
-          </p>
+          <p className="mb-4 text-black">{data.description2}</p>
           <ul className="mb-0 flex items-center justify-center">
             {[...Array(5)].map((_, index) => (
               <li key={index}>
