@@ -69,6 +69,28 @@ const StatsCards = () => {
   const { locale } = useParams();
   const data = locale === "fr" ? Fr.StatsCards : En.StatsCards;
 
+  const cardsData = [
+    {
+      value: counts.deal + "K $",
+      label: data.DealOpportunityGenerated,
+      icon: <FontAwesomeIcon className="text-gray-900" icon={faDollarSign} />,
+    },
+    {
+      value: counts.countries,
+      label: data.Countries,
+      icon: <FontAwesomeIcon className="text-white" icon={faGlobe} />,
+    },
+    {
+      value: counts.campaigns,
+      label: data.CampaignsLaunched,
+      icon: <FontAwesomeIcon className="text-white" icon={faBullhorn} />,
+    },
+    {
+      value: counts.replyRate + "%",
+      label: data.ReplyRate,
+      icon: <FontAwesomeIcon className="text-white" icon={faPercent} />,
+    },
+  ];
   return (
     <section
       ref={ref}
@@ -96,81 +118,24 @@ const StatsCards = () => {
           {data.description}
         </p>
       </div>
-      <div className="px-4 md:px-56 py-4 m-auto mt-5 bg-yellow-5000">
-        <div className="grid grid-cols-1 md:grid-cols-2 xls:grid-cols-4 gap-8 w-full bg-green-4000">
-          {[
-            {
-              value: counts.deal + "K $",
-              label: data.DealOpportunityGenerated,
-              icon: (
-                <FontAwesomeIcon
-                  className="text-gray-900"
-                  icon={faDollarSign}
-                />
-              ),
-            },
-            {
-              value: counts.countries,
-              label: data.Countries,
-              icon: <FontAwesomeIcon className="text-white" icon={faGlobe} />,
-            },
-            {
-              value: counts.campaigns,
-              label: data.CampaignsLaunched,
-              icon: (
-                <FontAwesomeIcon className="text-white" icon={faBullhorn} />
-              ),
-            },
-            {
-              value: counts.replyRate + "%",
-              label: data.ReplyRate,
-              icon: <FontAwesomeIcon className="text-white" icon={faPercent} />,
-            },
-          ].map((stat, index) => (
+      <div className="px-4 md:px-28 lg:px-32 xl:px-36 py-4 m-auto mt-5 bg-yellow-5000">
+        <div
+          // className="grid grid-cols-1 md:grid-cols-2 xls:grid-cols-4 gap-8 w-full bg-green-4000"
+          className="grid gap-4 px-2 grid-cols-1 bg-red-3000 sm:grid-cols-1 sm:bg-green-4000 lg:grid-cols-2 bg-green-4000"
+        >
+          {cardsData.map((stat, index) => (
             <div key={index} className="w-full max-w-[500px] mx-auto">
-              {/* <div className="flex flex-col px-4 py-6 overflow-hidden bg-white hover:bg-gradient-to-br hover:from-[#e24545] hover:via-[#e24545] hover:to-[#d46969] rounded-xl shadow-lg duration-300 hover:shadow-2xl group flex-grow">
-                <div className="flex flex-row justify-between items-center">
-                  <div className="px-4 py-4 bg-gray-300 rounded-xl bg-opacity-30">
-                    {stat.icon}
-                  </div>
-                  <div className="inline-flex text-sm text-black sm:text-base">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 mr-2 text-black"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    {stat.value}
-                  </div>
-                </div>
-                <h1 className="text-2xl md:text-3xl font-bold text-black mt-8 text-center">
-                  {stat.value}
-                </h1>
-                <div>
-                  <p className="text-base md:text-lg text-center mb-6 md:mb-12">
-                    {stat.label}
-                  </p>
-                </div>
-              </div> */}
-              <li className="relative grid gap-2 items-start bg-gradient-to-tr from-[#e24545] to-[#e24594] h-[198pxss]s h-fit rounded-3xl p-4">
+              <li className="grid items-start bg-gradient-to-tr from-[#e24545] to-[#e24594] h-fit rounded-3xl p-4">
                 <div className="flex justify-between">
                   <span className="px-4 py-3 h-fit w-fit bg-gray-300 rounded-xl bg-opacity-30">
                     {stat.icon}
                   </span>
-                  <span className="text-[44px] font-bold text-white">
+                  <span className="text-[2rem] lg:text-[2.3rem] font-bold text-white">
                     {stat.value}
                   </span>
                   <span className="px-6"></span>
                 </div>
-                <p className="font-[400px] text-[16px] text-start text-white">
+                <p className="font-[400px] text-[0.93rem] lg:text-[1rem] text-start text-white">
                   {stat.label}
                 </p>
               </li>
