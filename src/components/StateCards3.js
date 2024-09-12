@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import image3 from "../assets/image3.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 const StatsCards = () => {
   const [shown, setShown] = useState(false);
@@ -73,7 +74,7 @@ const StatsCards = () => {
     {
       value: counts.deal + "K $",
       label: data.DealOpportunityGenerated,
-      icon: <FontAwesomeIcon className="text-gray-900" icon={faDollarSign} />,
+      icon: <FontAwesomeIcon className="text-white" icon={faDollarSign} />,
     },
     {
       value: counts.countries,
@@ -94,7 +95,7 @@ const StatsCards = () => {
   return (
     <section
       ref={ref}
-      className="py-10 bg-gray-100 bg-violet-7000 bg-opacity-30 -mt-10"
+      className="py-10 bg-gray-100 bg-violet-7000 bg-opacity-30 pt-10 mb-10"
     >
       <div className="relative">
         <div className="absolute top-0 right-0 md:right-20 -z-10 hidden md:block mt-[-10px]">
@@ -114,34 +115,42 @@ const StatsCards = () => {
         <h2 className="font-bold border-t-4 border-[#e24545] font-chivo text-2xl md:text-3xl text-[#e24545] mb-4 inline-block relative">
           {data.heading}
         </h2>
-        <p className="font-chivo text-lg md:text-2xl text-black font-medium">
+        <p className="font-chivo text-lg md:text-2xl text-gray-950 font-medium px-4">
           {data.description}
         </p>
       </div>
-      <div className="px-4 md:px-28 lg:px-32 xl:px-36 py-4 m-auto mt-5 bg-yellow-5000">
-        <div
-          // className="grid grid-cols-1 md:grid-cols-2 xls:grid-cols-4 gap-8 w-full bg-green-4000"
-          className="grid gap-4 px-2 grid-cols-1 bg-red-3000 sm:grid-cols-1 sm:bg-green-4000 lg:grid-cols-2 bg-green-4000"
-        >
+      <div className="px-36 py-4 m-auto mt-5">
+        <div className="grid gap-4 px-32 grid-cols-1 bg-red-3000 sm:grid-cols-1 sm:bg-green-4000 lg:grid-cols-2">
           {cardsData.map((stat, index) => (
             <div key={index} className="w-full max-w-[500px] mx-auto">
-              <li className="grid items-start bg-gradient-to-tr from-[#e24545] to-[#e24594] h-fit rounded-3xl p-4">
-                <div className="flex justify-between">
-                  <span className="px-4 py-3 h-fit w-fit bg-gray-300 rounded-xl bg-opacity-30">
-                    {stat.icon}
-                  </span>
-                  <span className="text-[2rem] lg:text-[2.3rem] font-bold text-white">
-                    {stat.value}
-                  </span>
-                  <span className="px-6"></span>
+              <li className="grid items-center justify-center bg-gradient-to-tr from-[#e24545] to-[#e24594] h-full rounded-3xl p-4">
+                <div className="flex flex-col items-center justify-between h-full">
+                  <div className="flex flex-col items-center justify-center flex-grow">
+                    <span className="text-[2rem] lg:text-[2.7rem] font-bold text-white text-center">
+                      {stat.value}
+                    </span>
+                    <span className="px-6"></span>
+                  </div>
+                  <p className="font-[400px] text-[0.93rem] lg:text-[1rem] text-white text-center">
+                    {stat.label}
+                  </p>
                 </div>
-                <p className="font-[400px] text-[0.93rem] lg:text-[1rem] text-start text-white">
-                  {stat.label}
-                </p>
               </li>
             </div>
           ))}
         </div>
+      </div>{" "}
+      <div className="flex justify-center my-4">
+        <Link
+          href={`/${locale}/ContactUs`}
+          class="h-fit w-fit rounded-[32px] bg-gradient-to-r from-[#e24545] vida-red-500 to-yellow-400 px-[3px] py-[2.8px] group transition-all duration-300 cursor-pointer"
+        >
+          <div class="flex h-fit w-fit items-center justify-center bg-white group-hover:bg-[#e24545] rounded-[64px] px-4 py-1.5 transition-all duration-300">
+            <h1 class="text-lg font-semibold text-[#e24545] group-hover:text-white text-nowrap">
+              {locale == "fr" ? "Lire Plus" : "Read More"}
+            </h1>
+          </div>
+        </Link>
       </div>
     </section>
   );

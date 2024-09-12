@@ -5,6 +5,8 @@
       "slug": "Training-And-Certifications",
       "description": "Boostez les compétences de votre équipe avec nos formations et certifications expertes en développement commercial et en vente Digital. Conçues pour les PME B2B, nous fournissons les outils et les connaissances nécessaires pour trouver, contacter et conclure de nouvelles affaires de manière prévisible efficacement.",
       "image": "/Training-and-Certifications.png",
+      "image1": "/100.png",
+
       "link": "/training-and-certifications"
     },
     "2": {
@@ -12,6 +14,8 @@
       "slug": "CRM-Integrations",
       "description": "Centraliser les interactions avec vos clients, boostez la productivité de votre équipe et préparez-vous à la croissance future avec le CRM intelligent de HubSpot. Découvrez une intégration transparente et des fonctionnalités avancées adaptées à votre succès. Alimentez les ventes, le support et le marketing de vos clients avec HubSpot CRM.",
       "image": "/CRM-Integrations.png",
+      "image1": "/101.png",
+
       "link": "/CRM-Integrations"
     },
     "3": {
@@ -19,31 +23,38 @@
       "slug": "Business-Development",
       "description": "Trouvez, atteignez et concluez vos clients idéaux en utilisant des méthodes de prospection éprouvées et des stratégies de marketing direct via Email, LinkedIn, WhatsApp et SMS. Nos solutions sur mesure incluant des études de marché, la création de funnels de vente pour la tech, et l'accès à des experts en développement commercial. Assurez une domination claire du marché et une croissance soutenue avec nos services complets de Go-To-Market.",
       "image": "/Business-Developmen.png",
+      "image1": "/102.png",
+
       "link": "/Business-Development"
     }
   },
 
   "OurServicesPage": {
     "title": "Nos Services",
+    "subtitle": "la croissance en toute simplicité",
     "button": "En Savoir Plus"
   },
   "WhyUs": {
     "1": {
       "name": "Expansion Globale au moindre Coût",
-      "position": "Imaginez-vous vous développer sur les marchés mondiaux sans les frais d'ouverture de nouvelles succursales ou d'embauche de développeurs commerciaux à temps plein. En vous associant à notre équipe d'experts en développement commercial, vous avez accès à une large gamme de services professionnels. Nous vous aidons à commercialiser vos produits/services, à atteindre plus de clients et à conclure plus de contrats, augmentant ainsi considérablement vos revenus."
+      "position": "Imaginez-vous vous développer sur les marchés mondiaux sans les frais d'ouverture de nouvelles succursales ou d'embauche de développeurs commerciaux à temps plein. En vous associant à notre équipe d'experts en développement commercial, vous avez accès à une large gamme de services professionnels. Nous vous aidons à commercialiser vos produits/services, à atteindre plus de clients et à conclure plus de contrats, augmentant ainsi considérablement vos revenus.",
+      "icon": "/icon1.png"
     },
     "2": {
       "name": " Expérience étendue",
-      "position": "Notre équipe a passé plus de 10 ans dans le secteur du développement commercial B2B technologique. Nous avons travaillé avec des entreprises d'IA de pointe, des insurtechs, des entreprises de mobilité électrique, des consultants IT de premier plan et des fournisseurs internationaux d'ERP. Nous vous aidons à pénétrer de nouveaux marchés et à naviguer dans une concurrence féroce. En utilisant nos compétences et notre expérience, ainsi que des informations basées sur les données, nous créons des entonnoirs de vente pertinents qui propulsent votre succès."
+      "position": "Notre équipe a passé plus de 10 ans dans le secteur du développement commercial B2B technologique. Nous avons travaillé avec des entreprises d'IA de pointe, des insurtechs, des entreprises de mobilité électrique, des consultants IT de premier plan et des fournisseurs internationaux d'ERP. Nous vous aidons à pénétrer de nouveaux marchés et à naviguer dans une concurrence féroce. En utilisant nos compétences et notre expérience, ainsi que des informations basées sur les données, nous créons des entonnoirs de vente pertinents qui propulsent votre succès.",
+      "icon": "/icon2.png"
     },
     "3": {
       "name": "Stratégies Personnalisées",
-      "position": "Quand nous parlons de partenariat, nous le pensons vraiment. Nous prenons le temps de vous comprendre, vos services, vos clients et votre marché. Notre approche n'est jamais la même pour deux clients. Nous élaborons une stratégie unique et efficace pour atteindre votre public cible et générer de la demande pour votre marque. Nous nous assurons que votre entreprise se distingue et atteint ses objectifs."
+      "position": "Quand nous parlons de partenariat, nous le pensons vraiment. Nous prenons le temps de vous comprendre, vos services, vos clients et votre marché. Notre approche n'est jamais la même pour deux clients. Nous élaborons une stratégie unique et efficace pour atteindre votre public cible et générer de la demande pour votre marque. Nous nous assurons que votre entreprise se distingue et atteint ses objectifs.",
+      "icon": "/icon3.png"
     }
   },
 
   "WhyUsHeading": {
-    "heading": "Pourquoi Nous Choisir"
+    "heading": "Pourquoi Nous Choisir",
+    "button": "Discutons-en"
   },
 
   "StatsCards": {
@@ -71,12 +82,13 @@
   },
 
   "ProspectCalculator": {
-    "button": "Restrons en contact",
-    "heading": "Calculateur de nombre de prospects selon nombre de SMS envoyé",
-    "email": "Nombre de SMS envoyés par e-mail :",
-    "linkedin": "Nombre de SMS envoyés sur Linkedin :",
-    "whatsapp": "Nombre de SMS envoyés sur WhatsApp :",
-    "phone": "Nombre de SMS envoyés sur téléphone :",
+    "button": "Recevoir l'offre",
+    "heading": "Calculateur de nombre de prospects",
+    "subtitle": "Estimez votre potentiel de communication avec notre calculateur de sprospects. Sélectionnez vos canaux préférés (WhatsApp, SMS, e-mail ou LinkedIn) et découvrez combien de prospects vous pouvez atteindre",
+    "email": "Nombre d'e-mails envoyé :",
+    "linkedin": "Nombre de demandes de connexion sur Linkedin :",
+    "whatsapp": "Nombre de messages sur WhatsApp :",
+    "phone": "Nombre de messages via SmS :",
     "heading1": "Nombre de prospects obtenus"
   },
 
@@ -91,20 +103,24 @@
     "Countries": "Pays",
     "CampaignsLaunched": "Campagnes Lancées",
     "ReplyRate": "Taux de Réponse",
-    "heading3": "Axé sur les données",
-    "description3": "Nous basons nos décisions et nos optimisations sur les données que nous avons acquises ou déjà en notre possession. Nous capitalisons sur les succès existants et les utilisons pour développer vos résultats.",
-    "button3": "Prêt à développer votre entreprise ?",
-    "heading4": "Centricité client",
-    "description4": "C'est votre entreprise, et nous sommes ici pour la faire croître. Votre avis n'est pas seulement important, il est indispensable pour garantir des résultats optimaux.",
-    "button4": "Prêt à développer votre entreprise ?",
+    "heading3": "Décisions Basées sur les Données",
+    "description3": "Au cœur de notre stratégie se trouve un engagement envers la prise de décision fondée sur les données. Nous analysons minutieusement les données que nous collectons, ainsi que les informations dont nous disposons déjà, pour prendre des décisions éclairées qui stimulent la croissance. En identifiant ce qui fonctionne déjà, nous pouvons reproduire et améliorer ces succès, en développant les résultats de votre entreprise à de nouveaux sommets. Notre approche garantit que chaque étape que nous franchissons est soutenue par des preuves solides, conduisant à des stratégies optimisées et à un succès durable.",
+    "button3": "Prêt à Développer Votre Entreprise ?",
+    "heading4": "Approche Centrée sur le Client",
+    "description4": "Votre entreprise est unique, tout comme vos objectifs. C’est pourquoi nous vous plaçons au centre de tout ce que nous faisons. Nous croyons que votre contribution n’est pas seulement importante, elle est indispensable. En travaillant étroitement avec vous, nous nous assurons que nos stratégies s’alignent parfaitement sur votre vision et vos objectifs. Ensemble, nous créons un partenariat fondé sur la confiance et la collaboration, ce qui nous permet de dépasser les attentes. Votre succès est notre succès, et nous sommes là pour le réaliser.",
+    "button4": "Prêt à Développer Votre Entreprise ?",
     "heading5": "Communication avant tout",
-    "description5": "Vous avez une idée, parlons-en. Quelque chose vous pose problème, discutons des solutions. En tant qu'équipe, nous privilégions une communication honnête et transparente pour favoriser la santé organisationnelle. Ce sont nos valeurs.",
-    "button5": "Prêt à développer votre entreprise ?"
+    "description5": "Nous croyons que la communication ouverte est la base de tout partenariat réussi. Que vous ayez une nouvelle idée à explorer ou que vous soyez confronté à un défi qui nécessite une solution, nous sommes là pour écouter et collaborer. Notre équipe s'engage à favoriser un environnement d'honnêteté et de transparence, où chaque voix est entendue et chaque préoccupation est prise en compte. Cet engagement envers une communication claire et continue renforce non seulement notre relation de travail, mais garantit également que nous pouvons surmonter ensemble tous les obstacles, conduisant à une organisation plus saine et plus productive.",
+    "button5": "Prêt à Développer Votre Entreprise ?"
   },
 
   "TrainingAndCertifications": {
-    "heading": "Boostez vos Ventes avec une Formation Professionnelle en Développement Commercial",
-    "description": "Bénéficiez d'une formation professionnelle pour vos équipes internes de vente et de développement commercial, ou même pour vos employés réguliers, afin de commencer à générer et conclure des affaires dès que possible. Notre méthode éprouvée pour trouver des prospects, les atteindre, générer des réunions et des démonstrations, créer des propositions convaincantes et, finalement, conclure de nouveaux clients garantit que vous ne devrez jamais compter sur des sources externes de prospects—sauf nous, bien sûr.",
+    "title": "Formations & Certifications",
+    "heading": "Boostez vos Ventes avec une Formation Professionnelle ",
+    "subheading": "en Développement Commercial",
+    "description": "Notre méthode éprouvée pour trouver des prospects, les atteindre, générer des réunions et des démonstrations, créer des propositions convaincantes et, finalement, ",
+    "descriptionBold": "conclure de nouveaux clients garantit ",
+    "secondDescription": "que vous ne devrez jamais compter sur des sources externes de prospects—sauf nous, bien sûr.",
 
     "heading1": "Notre Méthode Éprouvée",
     "description1": "Après des années dans l'industrie B2B tech, nous avons réalisé que chaque entonnoir de vente suit des étapes similaires pour conclure une affaire. Nous avons minutieusement reproduit et perfectionné ces étapes pour convenir à toute entreprise B2B. Bien que des ajustements soient toujours nécessaires, le processus reste constant.",
@@ -116,6 +132,7 @@
     "card1Description2": "Comprenez leurs intérêts et comment obtenir une réponse malgré les centaines de messages qu'ils reçoivent chaque jour.",
 
     "card2": "CopyWriting",
+    "card2icon": "<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"1em\\\" height=\\\"1em\\\" viewBox=\\\"0 0 48 48\\\"><circle cx=\\\"24\\\" cy=\\\"24\\\" r=\\\"18.5\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"></circle><path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" d=\\\"M34.495 19.313C32.7 15.3 28.68 12.5 24 12.5c-6.351 0-11.5 5.149-11.5 11.5S17.649 35.5 24 35.5c4.68 0 8.7-2.8 10.495-6.813\\\"></path></svg>",
     "card2Description1": "Créez des messages qui répondent aux points douloureux de vos prospects.",
     "card2Description2": "Positionnez votre produit ou service comme la solution idéale.",
 
@@ -147,13 +164,16 @@
     "card9": "Formation Pratique",
     "card9Description1": "Nos sessions sont interactives et pratiques, garantissant que vous pouvez appliquer immédiatement ce que vous apprenez pour commencer à voir des résultats.",
 
-    "description3": "Rejoignez-nous et acquérez les compétences nécessaires pour prendre le contrôle de votre pipeline de ventes, améliorer votre prospection et conclure plus d'affaires. Nos sessions de formation vous équiperont des connaissances et des outils nécessaires pour devenir autonome en génération de prospects et développement commercial, assurant une croissance et un succès durables pour votre entreprise."
+    "description3": "Devenez autonome en matière de génération de leads",
+    "button": "Plus d’infos"
   },
 
   "BusinessDevelopment": {
-    "heading": "Nous vous connectons avec vos clients idéaux",
+    "title": "Développement Des Affaires",
+    "heading": "Nous vous connectons avec ",
+    "subheading": "vos clients idéaux",
     "heading1": "Notre Processus Éprouvé pour le Développement Commercial",
-    "description": "Trouvez, atteignez et concluez vos clients idéaux en utilisant des méthodes éprouvées et des stratégies de marketing direct par Email, LinkedIn, WhatsApp et SMS. Nos solutions sur mesure incluent des études de marché, la création de funnels de vente technologiques et l'accès à des développeurs commerciaux experts.",
+    "description": "Trouvez et concluez des clients idéaux grâce à des stratégies éprouvées d'appels sortants par e-mail, LinkedIn, WhatsApp et SMS. Bénéficiez d'études de marché sur mesure, de la création d'un entonnoir de vente et de développeurs commerciaux dédiés.",
     "description1": "Assurez une domination claire du marché et une croissance soutenue avec nos services complets de Go-To-Market. En suivant ces étapes, nous fournissons un flux constant de prospects de haute qualité et une solution de développement commercial adaptée à vos besoins uniques.",
 
     "headingCard1": "Définir votre profil de client idéal (ICP) et stratégie",
@@ -186,7 +206,12 @@
   },
 
   "CRMIntegrations": {
-    "heading": "Transformez les Relations Clients avec l'Intégration CRM de HubSpot",
+    "button": "Contactez Nous",
+    "title": "Intégration CRM",
+    "heading": "Transformez ",
+    "heading2": "les Relations Clients ",
+    "heading3": " avec l'Intégration CRM de HubSpot ",
+    "text": "Nous vous aidons à intégrer HubSpot CRM, une plateforme puissante et facile à utiliser. Connectez vos données, équipes et clients de manière fluide sur un système alimenté par l'IA qui évolue avec la croissance de votre entreprise, améliorant ainsi l'efficacité et les résultats.",
     "card1": "HubSpot CRM",
     "description1": "Gérer les relations clients est essentiel pour la croissance. En tant que partenaires HubSpot, nous offrons une intégration transparente pour organiser, suivre et cultiver les interactions clients. HubSpot CRM centralise les informations clients, les rendant accessibles à votre équipe pour une expérience optimale.",
     "card2": "Votre Entreprise A Besoin d'un CRM",
@@ -242,7 +267,7 @@
 
   "Navbar": {
     "title1": "Accueil",
-    "title2": "À propos de nous",
+    "title2": "À propos",
     "title3": "Solutions",
     "title4": "Blogs",
     "title5": "Contactez-nous",
@@ -289,7 +314,7 @@
     "page6": "Développement Des Affaires",
     "page7": "Intégration CRM",
 
-    "description": "Restez informé(e) de nos dernières actualités !",
+    "description": "Restez informé(e) de nos dernières actualités !",
     "button": "À très vite !"
   }
 }

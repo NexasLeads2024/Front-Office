@@ -27,7 +27,8 @@ const ContactUs = () => {
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </Head>
   <Navbar />
-  <ContactUsPage />
+  <div className='mt-28'>
+  <ContactUsPage /></div>
   <FAQ />
   <Footer />
   </div>

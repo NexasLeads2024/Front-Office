@@ -24,13 +24,10 @@ const BlogPost = () => {
     const fetchPost = async () => {
       try {
         const response = await fetch(
-          `${process.env.NEXT_PUBLIC_SERVER}/blogs/${id}`
+          `https://back-end-mu-coral.vercel.app/blogs/${id}`
         );
         if (!response.ok) {
-          throw new Error(
-            process.env.NEXT_PUBLIC_SERVER,
-            " Failed to fetch post"
-          );
+          throw new Error(" Failed to fetch post");
         }
         const data = await response.json();
         setPost(data);
@@ -44,8 +41,7 @@ const BlogPost = () => {
     const fetchLatestPosts = async () => {
       try {
         const response = await fetch(
-          // "https://back-end-beryl-seven.vercel.app/blogs"
-          "http://localhost:8000/blogs"
+          `https://back-end-mu-coral.vercel.app/blogs`
         );
         if (!response.ok) {
           throw new Error("Failed to fetch posts");
@@ -63,9 +59,51 @@ const BlogPost = () => {
     }
   }, [id]);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading)
+    return (
+      <>
+        <Navbar />
+        <div className="animate-pulse mx-auto p-5 sm:p-10 md:p-16 relative bg-gray-50">
+          <div className="h-96 bg-gray-300 w-full rounded-lg mb-4"></div>
+          <div className="max-w-3xl mx-auto">
+            <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+              <div className="bg-white relative top-0 -mt-32 p-5 sm:p-10">
+                <div className="h-8 bg-gray-300 rounded mb-4"></div>
+                <div className="h-4 bg-gray-300 rounded w-3/4 mb-2"></div>
+                <div className="h-4 bg-gray-300 rounded w-1/2 mb-4"></div>
+                <div className="space-y-4">
+                  <div className="h-4 bg-gray-300 rounded w-full"></div>
+                  <div className="h-4 bg-gray-300 rounded w-full"></div>
+                  <div className="h-4 bg-gray-300 rounded w-full"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section className="py-24 bg-white mt-10 mb-10">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="h-8 bg-gray-300 rounded mb-16 w-1/3 mx-auto"></div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {Array.from({ length: 3 }).map((_, index) => (
+                  <div
+                    key={index}
+                    className="group border border-gray-300 rounded-2xl overflow-hidden flex flex-col bg-white"
+                  >
+                    <div className="flex-shrink-0 h-64 bg-gray-300"></div>
+                    <div className="flex-grow p-4 lg:p-6 transition-all duration-300 group-hover:bg-gray-50">
+                      <div className="h-4 bg-gray-300 rounded w-1/3 mb-3"></div>
+                      <div className="h-6 bg-gray-300 rounded w-3/4 mb-5"></div>
+                      <div className="h-4 bg-gray-300 rounded w-1/4"></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </div>
+      </>
+    );
   if (error) return <p>Error: {error}</p>;
-  if (!post) return <p>Post not found</p>;
+  if (!post) return <p>..Post not found..</p>;
 
   return (
     <div>

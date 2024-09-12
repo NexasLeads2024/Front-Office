@@ -7,6 +7,7 @@ import { useParams } from "next/navigation";
 import Subscribe from "@/components/Subscribe";
 const LatestBlogPosts = () => {
   const [loading, setLoading] = useState(true);
+  const [isFetched, setIsFetched] = useState(false);
   const [blogs, setBlogs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6); // Number of posts per page
@@ -17,8 +18,7 @@ const LatestBlogPosts = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          // "https://back-end-beryl-seven.vercel.app/blogs"
-          "http://localhost:8000/blogs"
+          "https://back-end-mu-coral.vercel.app/blogs"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch posts");
@@ -26,7 +26,7 @@ const LatestBlogPosts = () => {
         const fetchedBlogs = await response.json();
         setBlogs(fetchedBlogs);
       } catch (error) {
-        setError(error.message);
+        // setError(error.message);
       } finally {
         setLoading(false);
       }
@@ -78,15 +78,6 @@ const LatestBlogPosts = () => {
                   <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
                   <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
                   <div class="flex items-center mt-4">
-                    <svg
-                      class="w-10 h-10 me-3 text-gray-200 dark:text-gray-700"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
-                    </svg>
                     <div>
                       <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32 mb-2"></div>
                       <div class="w-48 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
@@ -101,7 +92,12 @@ const LatestBlogPosts = () => {
         </section>
       </>
     );
-
+  if (isFetched && !blogs?.length >= 1)
+    return (
+      <h1 className="font-semibold text-3xl">
+        {locale !== "fr" ? "No Blogs Found!" : "Aucun Blog Found!"}
+      </h1>
+    );
   return (
     <section className="py-24 bg-slate-400 bg-opacity-15">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -147,6 +143,7 @@ const LatestBlogPosts = () => {
           >
             {data.Previous}
           </button>
+
           {Array.from({ length: totalPages }, (_, index) => (
             <button
               key={index + 1}
@@ -160,6 +157,7 @@ const LatestBlogPosts = () => {
               {index + 1}
             </button>
           ))}
+
           <button
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === totalPages}

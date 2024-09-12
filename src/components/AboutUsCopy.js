@@ -15,6 +15,7 @@ import Link from "next/link";
 // import { useSelector } from "react-redux";
 // ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 import { Line } from "react-chartjs-2";
+import gif from "../../public/Analyze.gif";
 import {
   Chart as ChartJs,
   CategoryScale,
@@ -38,6 +39,8 @@ ChartJs.register(
   Filler
 );
 import { useState, useEffect } from "react";
+import MixedChart from "./MixedChart";
+import Image from "next/image";
 
 // Register the necessary Chart.js components
 
@@ -154,30 +157,58 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="mt-10 mb-10 sm:pl-20 sm:pr-20 pl-5 pr-5 pt-10 flex flex-col sm:flex-row-reverse bg-slate-400 bg-opacity-15 items-center justify-between sm:pt-10 sm:pb-10">
-      <div className="sm:w-1/2 w-full mt-8 sm:mt-0">
-        <h2 className="my-4 font-bold text-2xl sm:text-4xl text-start sm:mt-20 -mt-10 px-4 sm:px-8">
-          {data.heading}
-          <span className="text-[#e24545]"> {data.heading1} </span>
-        </h2>
-        <p className="text-gray-700 text-sm sm:text-lg px-4 sm:px-8 text-center sm:text-left">
-          {data.description}
-        </p>
-        <Link href={`/${locale}/ContactUs`}>
-          <button className="cursor-pointer transition-all duration-500 p-1 rounded-[24px] flex items-center justify-center gap-4 bg-gradient-to-r bg-[#e24545] hover:bg-black w-full max-w-[300px] mx-auto">
-            <span className="text-[1.5rem] font-semibold text-white tracking-wider">
-              {data.button}
-            </span>
-          </button>
-        </Link>
-      </div>
-      <div className="sm:w-1/2 w-full px-0 sm:px-8 flex items-center justify-center sm:mt-20 mt-10 sm:mb-10 -mb-10">
-        <div className="w-full h-64 sm:h-80">
-          {/* <Bar data={chartData} options={chartOptions} />
-           */}
+    <>
+      <div className="flex flex-col-reverse md:flex-row px-8 bg-gray-100 bg-opacity-45 pt-10">
+        <div className="min-w-[40%] flex justify-center">
+          <div className="relative max-w-80 hidden md:block">
+            <Image
+              width={100}
+              height={100}
+              src={gif}
+              className="cursor-pointer w-full relative md:-top-4"
+            />
+            <div className="absolute text-lg text-[#e24545] font-bold max-w-fit end-4 top-1">
+              Sales Pipeline
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 className=" font-bold text-2xl sm:text-4xl text-start sm:px-8">
+            {data.heading}
+            <span className="text-[#e24545]"> {data.heading1} </span>
+          </h2>
+          <div className="relative max-w-80 md:hidden mt-4">
+            <Image
+              width={100}
+              height={100}
+              src={gif}
+              className="cursor-pointer w-full"
+            />
+            <div className="absolute text-lg text-[#e24545] font-bold max-w-fit end-4 top-1">
+              Sales Pipeline
+            </div>
+          </div>
+          <p className="text-gray-900 text-md sm:text-lg text-start">
+            {data.description}
+          </p>
+          <div className="w-full flex">
+            <Link
+              href={`/${locale}/ContactUs`}
+              class="h-fit w-fit rounded-3xl bg-gradient-to-r from-[#e24545]
+            vida-red-500 to-yellow-400 px-[2px] py-[2.6px] group ms-4
+            md:px-[2px] md:py-[2px] min-w-[215px] min-h-[43px]
+            transition-all duration-300 md:relative md:top-4"
+            >
+              <div class="flex h-full w-full items-center justify-center bg-white group-hover:bg-[#e24545] rounded-3xl px-3 py-2 transition-all duration-300">
+                <h1 class="text-lg font-semibold text-[#e24545] group-hover:text-white text-nowrap">
+                  {data.button}
+                </h1>
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

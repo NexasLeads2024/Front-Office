@@ -167,7 +167,7 @@ export default function Footer() {
           <div className="flex flex-col mb-8 md:mb-0">
             <h2 className="text-lg font-bold mb-2">{data.heading2}</h2>
             <ul className="space-y-2 text-sm md:text-base">
-              <li><Link href={`/${locale}/Training-And-Certifications`}>{data.page5}</Link></li>
+              <li><Link href={`/${locale}/training-and-certifications`}>{data.page5}</Link></li>
               <li><Link href={`/${locale}/Business-Development`}>{data.page6}</Link></li>
               <li><Link href={`/${locale}/CRM-Integrations`}>{data.page7}</Link></li>
             </ul>

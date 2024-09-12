@@ -4,9 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 // import logo from "../assets/logo-nexasleads.png";
 import logo from "../assets/solo_logo.jpg";
-import logoLoto from "../assets/nexasleads-title.jpg";
-import englishFlag from "../assets/en.png";
-import frenchFlag from "../assets/fr.png";
 import En from "../../messages/eng.json";
 import Fr from "../../messages/fr.json";
 import { FaChevronDown } from "react-icons/fa";
@@ -112,11 +109,11 @@ export default function Navbar({ params = {} }) {
   const data = locale === "fr" ? Fr.Navbar : En.Navbar;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white bg-blue-4000 shadow-md z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-7 bg-red-4000">
-        <div className="flex justify-around items-center h-16 bg-yellow-4000">
+    <nav className="fixed top-0 left-0 right-0 shadow-md z-50 backdrop-blur-2xl  ">
+      <div className="max-w-[100dvw] py-1 min-w-full px-4 sm:px-6 lg:px-2  ">
+        <div className="flex justify-between px-8 items-center h-fit py-1.5 2xl:py-4 ">
           {/* Desktop Logo */}
-          <div className="flex-shrink-0 hidden lg:block bg-blue-4000">
+          <div className="flex-shrink-0 hidden lg:block ">
             <Link
               className="flex gap-x-2 items-center"
               href={`/${locale}/`}
@@ -125,19 +122,17 @@ export default function Navbar({ params = {} }) {
               <Image
                 src={logo}
                 alt="NexasLeads"
-                // width={150}
-                // height={50}
                 priority
-                style={{ width: "60px", height: "auto" }}
+                style={{ width: "50px", height: "auto" }}
                 layout="intrinsic"
               />
-              <span className="hidden lg:block text-lg font-semibold">
+              <span className="hidden lg:block text-lg 2xl:text-2xl font-semibold">
                 NexasLeads
               </span>
             </Link>
           </div>
           {/* Mobile Logo */}
-          <div className="flex-1 flex items-center justify-start space-x-1077 bg-cyan-4000">
+          <div className="flex-1s flex items-center justify-start space-xs-10 w-fit">
             <div className="flex-shrink-0 lg:hidden">
               <Link
                 href={`/${locale}/`}
@@ -158,11 +153,11 @@ export default function Navbar({ params = {} }) {
             </div>
 
             {/* Desktop Navigation Links */}
-            <div className="hidden lg:flex gap-x-[5%] items-center ps-6 bg-green-4000">
+            <div className="hidden lg:flex gap-x-[5%] items-center ps-6">
               <Link
                 href={`/${locale}/`}
                 locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap 2xl:text-xl ${
                   currentPath === `/${locale}/` || currentPath === `/${locale}`
                     ? " font-bold "
                     : " "
@@ -170,18 +165,10 @@ export default function Navbar({ params = {} }) {
               >
                 {data.title1}
               </Link>
-              <Link
-                href={`/${locale}/AboutUs`}
-                locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
-                  currentPath === `/${locale}/AboutUs` ? " font-bold " : " "
-                }`}
-              >
-                {data.title2}
-              </Link>
+
               <div className="relative group" ref={dropdownRef}>
                 <button
-                  className="text-gray-700 hover:text-[#ffd126] text-md flex items-center"
+                  className="text-gray-700 hover:text-[#ffd126] text-md 2xl:text-xl flex items-center"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                 >
                   {data.title3}
@@ -196,7 +183,7 @@ export default function Navbar({ params = {} }) {
                     <Link
                       href={`/${locale}/training-and-certifications`}
                       locale={locale}
-                      className={`block px-4 py-2 text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
+                      className={`block px-4 py-2 text-gray-700 hover:text-[#ffd126] text-md text-nowrap 2xl:text-xl ${
                         currentPath === `/${locale}/training-and-certifications`
                           ? "font-bold"
                           : ""
@@ -208,7 +195,7 @@ export default function Navbar({ params = {} }) {
                     <Link
                       href={`/${locale}/business-development`}
                       locale={locale}
-                      className={`block px-4 py-2 text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
+                      className={`block px-4 py-2 text-gray-700 hover:text-[#ffd126] text-md text-nowrap 2xl:text-xl ${
                         currentPath === `/${locale}/business-development`
                           ? "font-bold"
                           : ""
@@ -219,7 +206,7 @@ export default function Navbar({ params = {} }) {
                     <Link
                       href={`/${locale}/CRM-Integrations`}
                       locale={locale}
-                      className={`block px-4 py-2 text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
+                      className={`block px-4 py-2 text-gray-700 hover:text-[#ffd126] text-md text-nowrap 2xl:text-xl ${
                         currentPath === `/${locale}/CRM-Integrations`
                           ? "font-bold"
                           : ""
@@ -231,9 +218,18 @@ export default function Navbar({ params = {} }) {
                 )}
               </div>
               <Link
+                href={`/${locale}/AboutUs`}
+                locale={locale}
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap 2xl:text-xl ${
+                  currentPath === `/${locale}/AboutUs` ? " font-bold " : " "
+                }`}
+              >
+                {data.title2}
+              </Link>
+              <Link
                 href={`/${locale}/Blog`}
                 locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap 2xl:text-xl ${
                   currentPath.startsWith(`/${locale}/Blog`)
                     ? " font-bold "
                     : " "
@@ -244,7 +240,7 @@ export default function Navbar({ params = {} }) {
               <Link
                 href={`/${locale}/ContactUs`}
                 locale={locale}
-                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap ${
+                className={`text-gray-700 hover:text-[#ffd126] text-md text-nowrap 2xl:text-xl ${
                   currentPath === `/${locale}/ContactUs` ? " font-bold " : " "
                 }`}
               >
@@ -253,7 +249,7 @@ export default function Navbar({ params = {} }) {
             </div>
           </div>{" "}
           {/* Desktop Button */}
-          <div className="hidden lg:flex items-center gap-x-4">
+          <div className="hidden lg:flex items-center gap-x-4 2xl:text-xl ">
             <div className="flex font-semibold gap-x-1">
               <Link
                 href={getLocalizedPath("fr")}
@@ -277,7 +273,7 @@ export default function Navbar({ params = {} }) {
               href="https://calendly.com/yassir-gazani-auy/20"
               target="_blank"
             >
-              {/* <div className="flex justify-center items-center cursor-pointer group relative gap-1.5 px-6 py-3 bg-[#ffd126] text-black rounded-lg hover:bg-[#f8c600] transition font-semibold text-md ml-10">
+              {/* <div className="flex justify-center items-center cursor-pointer group relative gap-1.5 px-6 py-3 bg-[#ffd126] text-gray-950 rounded-lg hover:bg-[#f8c600] transition font-semibold text-md ml-10">
                   {data.button}
                 </div> */}
               {/* <div class="mx-auto flex min-h-screen max-w-screen-sm items-center justify-center"> */}
@@ -321,11 +317,11 @@ export default function Navbar({ params = {} }) {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-white shadow-md z-40 transition-transform transform ${
+        className={`fixed inset-0 bg-white shadow-md z-40 transition-transform transform   ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } lg:hidden`}
       >
-        <div className="flex flex-col p-4">
+        <div className="flex flex-col p-4 bg-white bg-opacity-95 ">
           <button
             onClick={() => setIsOpen(false)}
             className="self-end text-gray-700 hover:text-[#ffd126]"
@@ -423,38 +419,29 @@ export default function Navbar({ params = {} }) {
               href={getLocalizedPath("fr")}
               locale="fr"
               onClick={() => setLanguage("fr")}
-              className="flex items-center justify-center hover:underline"
+              className={`${
+                locale !== "en" ? "underline " : " "
+              } font-semibold`}
             >
-              <Image
-                src={frenchFlag}
-                alt="French"
-                width={24}
-                height={24}
-                className="border-2 border-black"
-              />
-            </Link>
+              FR
+            </Link>{" "}
+            <span className="font-semibold mx-1">|</span>
             <Link
               href={getLocalizedPath("en")}
               locale="en"
-              className="flex items-center justify-center hover:underline"
+              className={`${locale == "en" ? "underline " : " "} font-semibold`}
               onClick={() => setLanguage("en")}
             >
-              <Image
-                src={englishFlag}
-                alt="English"
-                width={24}
-                height={24}
-                className="border-2 border-black"
-              />
+              EN
             </Link>
           </div>
-          <Link
-            href="https://calendly.com/yassir-gazani-auy/20"
-            target="_blank"
-            className="flex justify-center items-center cursor-pointer group relative gap-1.5 px-6 py-3 bg-[#ffd126] text-black rounded-lg hover:bg-[#f8c600] transition font-semibold text-md mt-4"
-          >
-            {data.button}
-          </Link>
+          <div class="h-fit w-full rounded-3xl bg-gradient-to-r from-[#e24545] vida-red-500 to-yellow-400 px-[2.5px] py-[3px] group">
+            <div class="flex h-fit w-full items-center justify-center bg-white group-hover:bg-[#e24545] rounded-3xl px-4 py-2">
+              <h1 class="text-md font-semibold text-[#e24545] group-hover:text-white text-nowrap">
+                {data.button}
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

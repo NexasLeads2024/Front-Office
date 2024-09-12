@@ -44,21 +44,23 @@ const HomePage = () => {
       </Head>
       <Navbar />
       <Hero />
-      <Partners1 />
-      {/* <AboutUs /> */}
+      <div className="-mt-[19rem] sm:-mt-24 md:-mt-20 xl:-mt-28 2xl:-mt-36 py-2">
+        <Partners1 />
+      </div>
       <OurServises />
       <AboutUsCopy />
+      <StateCards3 />
+      <WhyUs />
+      {/* <AboutUs /> */}
       {/* <YouTubeVideo /> */}
-      <Section />
       {/* <StatsCards /> */}
       {/* <StateCards2 /> */}
-      <StateCards3 />
       <ProspectCalculator />
-      <Partners />
-      <WhyUs />
       <Reviews />
-      <ContactUsPage />
+      <Section />
+      <Partners />
       <FAQ />
+      <ContactUsPage />
       <Footer />
     </div>
   );

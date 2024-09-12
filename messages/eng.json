@@ -5,6 +5,8 @@
       "slug": "training-and-certifications",
       "description": "Boost your team's skills with our expert training and certifications in business development and tech sales. Designed for small and medium B2B companies, we provide the tools and knowledge to find, contact, and close clients effectively.",
       "image": "/Training-and-Certifications.png",
+      "image1": "/100.png",
+      "images": [""],
       "link": "/training-and-certifications"
     },
     "2": {
@@ -12,39 +14,55 @@
       "slug": "CRM-Integrations",
       "description": "Centralize customer interactions, boost team productivity, and prepare for future growth with HubSpot's Smart CRM. Discover seamless integration and advanced features tailored for your success. Power your customer’s sales , support and marketing with Hubspot CRM.",
       "image": "/CRM-Integrations.png",
+      "image1": "/101.png",
+      "images": ["/HUBSPOT.png"],
       "link": "/CRM-Integrations"
     },
     "3": {
       "name": "Business Development",
       "slug": "business-development",
-      "description": "Find, reach, and close your ideal clients using proven outbound methods and direct marketing strategies through Email, LinkedIn, WhatsApp, and SMS Marketing. Our tailored solutions include market research, tech sales funnel creation, and access to expert business developers. Ensure clear market dominance and sustained growth with our comprehensive Go-To-Market services.",
+      "description": "Find and close ideal clients with proven outbound strategies via Email, LinkedIn, WhatsApp, and SMS. Benefit from Tailored market research, sales funnel creation, and Dedicated Business developers. Ensure clear market dominance and sustained growth with our comprehensive Go-To-Market services..",
+
       "image": "/Business-Developmen.png",
+      "image1": "/102.png",
+      "images": [
+        "/gmail.png",
+        "/brevo.png",
+        "/AP.png",
+        "/linkedin.png",
+        "/smartlead.png"
+      ],
       "link": "/business-development"
     }
   },
 
   "OurServicesPage": {
     "title": "Our Services",
+    "subtitle": "Growth Made Simple",
     "button": "Know More"
   },
 
   "WhyUs": {
     "1": {
       "name": "Expand Globally at a Fraction of the Cost",
-      "position": "Imagine expanding into global markets without the expense of opening new branches or hiring full-time business developers. By partnering with our team of expert business developers, you gain access to a wide range of professional services. We help you commercialize your products/services, reach more clients, and close more deals, significantly boosting your revenue."
+      "position": "Imagine expanding into global markets without the expense of opening new branches or hiring full-time business developers. By partnering with our team of expert business developers, you gain access to a wide range of professional services. We help you commercialize your products/services, reach more clients, and close more deals, significantly boosting your revenue.",
+      "icon": "/icon1.png"
     },
     "2": {
       "name": "Leverage a Decade of Industry Experience",
-      "position": "Our team has spent over 10 years in the business development tech B2B industry. We've worked with cutting-edge AI companies, insurtechs, e-mobility firms, top IT consultants, and international ERP providers. We help you penetrate new markets and navigate tough competition. Leveraging our skills and experience, coupled with data insights, we craft relevant sales funnels that drive your success."
+      "position": "Our team has spent over 10 years in the business development tech B2B industry. We've worked with cutting-edge AI companies, insurtechs, e-mobility firms, top IT consultants, and international ERP providers. We help you penetrate new markets and navigate tough competition. Leveraging our skills and experience, coupled with data insights, we craft relevant sales funnels that drive your success.",
+      "icon": "/icon2.png"
     },
     "3": {
       "name": "Custom-Tailored Strategies for Your Unique Needs",
-      "position": "When we say partnership, we mean it. We take the time to understand you, your services, your clients, and your market. Our approach is never the same for any two clients. We craft a unique, effective strategy to reach your target audience and generate demand for your brand. We ensure your business stands out and achieves its goals."
+      "position": "When we say partnership, we mean it. We take the time to understand you, your services, your clients, and your market. Our approach is never the same for any two clients. We craft a unique, effective strategy to reach your target audience and generate demand for your brand. We ensure your business stands out and achieves its goals.",
+      "icon": "/icon3.png"
     }
   },
 
   "WhyUsHeading": {
-    "heading": "Why Partner With Us"
+    "heading": "Why Partner With Us",
+    "button": "Let's talk"
   },
 
   "StatsCards": {
@@ -72,12 +90,13 @@
   },
 
   "ProspectCalculator": {
-    "button": "Let's Talk",
+    "button": "Receive Offer",
     "heading": "Prospect Calculator",
-    "email": "Number of SMS Sent On Email :",
-    "linkedin": "Number of SMS Sent On LinkedIn :",
-    "whatsapp": "Number of SMS Sent On WhatsApp :",
-    "phone": "Number of SMS Sent On Phone :",
+    "subtitle": "Estimate your outreach potential with our Prospect Calculator. Select your preferred channels—WhatsApp, SMS, Email, or LinkedIn—and discover how many prospects you can reach",
+    "email": "Number of Emails Sent : ",
+    "linkedin": "Number of Connection Requests on Linkedin:",
+    "whatsapp": "Number of Messages on WhatsApp :",
+    "phone": "Number of Message Via SmS :",
     "heading1": "Number of prospects"
   },
 
@@ -92,20 +111,24 @@
     "Countries": "Countries",
     "CampaignsLaunched": "Campaigns Launched",
     "ReplyRate": "Reply Rate",
-    "heading3": "Data-Oriented",
-    "description3": "We base our decision and optimization on the Data we acquired or already have, we capitalize on existing success and then leverage it to scale your results.",
+    "heading3": "Data-Driven Decisions",
+    "description3": "At the core of our strategy is a commitment to data-driven decision-making. We meticulously analyze the data we collect, as well as the information we already possess, to make informed choices that drive growth. By identifying what’s already working, we can replicate and enhance those successes, scaling your business results to new heights. Our approach ensures that every step we take is backed by solid evidence, leading to optimized strategies and sustained success.",
     "button3": "Ready To grow Your Business ?",
-    "heading4": "Customer Centric",
-    "description4": "It's your business, and we are here to grow it, your opinion does not only matter but is required, so we can guarantee to have optimal results.",
+    "heading4": "Customer-Centric Approach",
+    "description4": "Your business is unique, and so are your goals. That’s why we place you at the center of everything we do. We believe that your input is not just important—it’s indispensable. By working closely with you, we ensure that our strategies align perfectly with your vision and objectives. Together, we create a partnership built on trust and collaboration, which allows us to deliver results that exceed expectations. Your success is our success, and we’re here to make it happen.",
     "button4": "Ready To grow Your Business ?",
-    "heading5": "Communication Above all",
-    "description5": "You have an idea, let's talk about it, something is challenging, let's discuss solutions, as a team, we prioritize communicating in all honesty and transparency so we can harvest organizational health.",
+    "heading5": "Communication First",
+    "description5": "We believe that open communication is the foundation of any successful partnership. Whether you have a new idea you want to explore or you’re facing a challenge that needs addressing, we’re here to listen and collaborate. Our team is committed to fostering an environment of honesty and transparency, where every voice is heard and every concern is addressed. This dedication to clear and continuous communication not only strengthens our working relationship but also ensures that we can navigate any obstacles together, leading to a healthier and more productive organization.",
     "button5": "Ready To grow Your Business ?"
   },
 
   "TrainingAndCertifications": {
-    "heading": "Boost Your Sales with Expert Business Development Training",
-    "description": "Benefit from professional training for your in-house sales and business development teams, or even regular employees, to start generating and closing deals ASAP. Our proven method to find leads, reach out, generate meetings and demos, craft compelling proposals, and ultimately close new clients ensures you never have to rely on external lead sources—except us, of course.",
+    "title": "Training & Certifications",
+    "heading": "Boost Your Sales with Expert ",
+    "subheading": "Business Development Training",
+    "description": "Benefit from our proven training to equip your in-house teams with the skills to ",
+    "descriptionBold": "generate and close deals quickly. ",
+    "secondDescription": "Our streamlined process covers lead generation, outreach, proposals, and closing, ensuring consistent results across B2B industries.",
 
     "heading1": "Our Proven Method",
     "description1": "After years of working in the B2B tech industry, we've realized that every sales funnel follows similar steps to close a deal. We've meticulously replicated and perfected these steps to suit any B2B company. While tweaks and customizations are always required, the process remains consistent.",
@@ -115,18 +138,22 @@
     "card1": "ICP",
     "card1Description1": "Learn to identify key components of your ICP to find them online.",
     "card1Description2": "Understand their interests and how to get them to respond amidst the hundreds of messages they receive daily.",
+    "icon1": "/icon1.svg",
 
     "card2": "CopyWriting",
     "card2Description1": "Create messages that speak to the pain points of your leads.",
     "card2Description2": "Position your product or service as the ideal solution.",
+    "icon2": "",
 
     "card3": "Channels",
     "card3Description1": "Identify the channels where your ICP is most active.",
     "card3Description2": "Master message creation for each channel to grow your open and reply rates.",
+    "icon3": "",
 
     "card4": "Selling",
     "card4Description1": "Understand the key steps to take after a lead agrees to meet.",
     "card4Description2": "Learn the art of building rapport and engaging leads without pitching immediately.",
+    "icon4": "",
 
     "card5": "Deals",
     "card5Description1": "Develop strategies to close deals and turn leads into long-term clients.",
@@ -148,13 +175,16 @@
     "card9": "Hands-On Training",
     "card9Description1": "Our sessions are interactive and practical, ensuring that you can apply what you learn immediately to start seeing results.",
 
-    "description3": "Join us and acquire the skills needed to take control of your sales pipeline, improve your prospecting, and close more deals. Our training sessions will equip you with the knowledge and tools necessary to become self-sufficient in lead generation and business development, ensuring sustainable growth and success for your company."
+    "description3": "Become self-sufficient in lead generation",
+    "button": "Know More"
   },
 
   "BusinessDevelopment": {
-    "heading": "We Connect You with Your Ideal Clients",
+    "title": " Business Development",
+    "heading": "We Connect You with ",
+    "subheading": "Your Ideal Clients",
     "heading1": "Our Proven Process for Business Development",
-    "description": "Find, reach, and close your ideal clients using proven outbound methods and direct marketing strategies through Email, LinkedIn, WhatsApp, and SMS Marketing. Our tailored solutions include market research, tech sales funnel creation, and access to expert business developers.",
+    "description": "Find and close ideal clients with proven outbound strategies via Email, LinkedIn, WhatsApp, and SMS. Benefit from Tailored market research, sales funnel creation, and Dedicated Business developers.",
     "description1": "Ensure clear market dominance and sustained growth with our comprehensive Go-To-Market services. By following these steps, we provide a consistent flow of high-quality leads and a tailored business development solution for your unique needs.",
 
     "headingCard1": "Define Your Ideal Customer Profile (ICP) and Strategy",
@@ -187,7 +217,12 @@
   },
 
   "CRMIntegrations": {
-    "heading": "Transform Customer Relationships with Seamless HubSpot CRM Integration",
+    "button": "Contact Us",
+    "title": "CRM Integrations ",
+    "heading": "Transform ",
+    "heading2": "Customer Relationships ",
+    "text": "We help you integrate HubSpot CRM, a powerful yet user-friendly platform. Seamlessly connect your data, teams, and customers on one AI-powered system that scales with your business growth, boosting efficiency and results.",
+    "heading3": " with Seamless HubSpot CRM Integration",
     "card1": "HubSpot CRM Integration",
     "description1": "Managing customer relationships is crucial for growth. As partners of HubSpot, we offer seamless integration to organize, track, and nurture your customer interactions. HubSpot's CRM centralizes all your customer information, making it accessible to your entire team, ensuring an optimal customer experience.",
     "card2": "Your Business Needs a CRM",
@@ -255,7 +290,7 @@
   },
 
   "Partners": {
-    "heading1": "They trust us,",
+    "heading1": "They trust us, ",
     "heading2": "join them!"
   },
 
@@ -291,7 +326,7 @@
     "page6": "Business Development",
     "page7": "CRM Integrations",
 
-    "description": "Receive information about our current information!",
+    "description": "Keep up to date with our latest news!",
     "button": "See you soon !"
   }
 }

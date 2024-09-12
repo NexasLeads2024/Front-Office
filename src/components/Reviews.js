@@ -16,7 +16,7 @@ const CardCarousel = () => {
         {/* Review 1 */}
         <div className="mb-12 md:mb-0 border-2 border-[#e24545] rounded-lg p-6">
           <h3 className="mb-4 text-2xl font-bold">{data.heading1}</h3>
-          <h2 className="text-black mb-4 font-semibold text-xl">
+          <h2 className="text-gray-950 mb-4 font-semibold text-xl">
             {data.heading2}
           </h2>
           <p className="mb-4 text-black">{data.description}</p>
@@ -43,7 +43,7 @@ const CardCarousel = () => {
         {/* Review 2 */}
         <div className="mb-12 md:mb-0 border-2 border-[#e24545] rounded-lg p-6">
           <h3 className="mb-4 text-2xl font-bold">{data.heading3}</h3>
-          <h2 className="text-black mb-4 font-semibold text-xl">
+          <h2 className="text-gray-950 mb-4 font-semibold text-xl">
             {data.heading4}
           </h2>
           <p className="mb-4 text-black">{data.description1}</p>
@@ -70,7 +70,7 @@ const CardCarousel = () => {
         {/* Review 3 */}
         <div className="mb-12 md:mb-0 border-2 border-[#e24545] rounded-lg p-6">
           <h3 className="mb-4 text-2xl font-bold">{data.heading5}</h3>
-          <h2 className="text-black mb-4 font-semibold text-xl">
+          <h2 className="text-gray-950 mb-4 font-semibold text-xl">
             {data.heading6}
           </h2>
           <p className="mb-4 text-black">{data.description2}</p>
